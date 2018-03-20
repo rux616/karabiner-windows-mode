@@ -10,9 +10,9 @@ Copy and paste the following URL into your browser window and Karabiner-Elements
 ( to do )
 
 ## Credits
-@TechnicallyDifficult for coming up with the initial json file
-@alvaro1728 for creating the current json file and for [asking the question](https://github.com/tekezo/Karabiner-Elements/issues/249) that got this whole thing started
-@tezeko for Karabiner-Elements
+- [@TechnicallyDifficult](https://github.com/TechnicallyDifficult) for coming up with the initial json file
+- [@alvaro1728](https://github.com/alvaro1728) for creating the current json file and for [asking the question](https://github.com/tekezo/Karabiner-Elements/issues/249) that got this whole thing started
+- [@tezeko](https://github.com/tekezo) for Karabiner-Elements
 
 ## Links
-Karabiner-Elements [(homepage)](https://pqrs.org/osx/karabiner/) [(GitHub)](https://github.com/tekezo/Karabiner-Elements)
+- Karabiner-Elements [(Homepage)](https://pqrs.org/osx/karabiner/) [(GitHub)](https://github.com/tekezo/Karabiner-Elements)
