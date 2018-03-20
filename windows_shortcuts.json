@@ -391,6 +391,21 @@
 					"type": "basic"
 				},
         {
+          "from": {
+            "key_code": "t",
+            "modifiers": {
+              "mandatory": [ "left_control" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [ {
+              "key_code": "t",
+              "modifiers": [ "left_command" ]
+            }
+          ],
+          "type": "basic"
+				},
+				{
 					"from": {
 						"key_code": "u",
             "modifiers": { "mandatory": ["left_control"], "optional": ["any"] }
@@ -453,6 +468,7 @@
           ],
 					"type": "basic"
 				}
+
       ]
     }
 	]
