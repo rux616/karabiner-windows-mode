@@ -1,8 +1,8 @@
 {
-  "title": "Windows",
+  "title": "Windows Shortcuts",
   "rules": [
     {
-      "description": "Windows shortcuts",
+      "description": "Home (LCtrl+LShift)",
       "manipulators": [
         {
           "from": {
@@ -14,7 +14,12 @@
             "modifiers": ["left_command", "left_shift"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Home (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "home",
@@ -25,7 +30,12 @@
             "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Home (RCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "home",
@@ -36,7 +46,12 @@
             "modifiers": ["right_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Home (LShift)",
+      "manipulators": [
         {
           "from": {
             "key_code": "home",
@@ -47,7 +62,12 @@
             "modifiers": ["left_command", "left_shift"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Home [Unless Terminal]",
+      "manipulators": [
         {
           "from": {
             "key_code": "home",
@@ -66,9 +86,12 @@
             }
           ],
           "type": "basic"
-        },
-
-
+        }
+      ]
+    },
+    {
+      "description": "End (LCtrl+LShift)",
+      "manipulators": [
         {
           "from": {
             "key_code": "end",
@@ -79,7 +102,12 @@
             "modifiers": ["left_command", "left_shift"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "End (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "end",
@@ -90,7 +118,12 @@
             "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "End (RCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "end",
@@ -101,7 +134,12 @@
             "modifiers": ["right_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "End (LShift)",
+      "manipulators": [
         {
           "from": {
             "key_code": "end",
@@ -112,7 +150,12 @@
             "modifiers": ["left_command", "left_shift"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "End [Unless Terminal]",
+      "manipulators": [
         {
           "from": {
             "key_code": "end",
@@ -131,9 +174,12 @@
             }
           ],
           "type": "basic"
-        },
-
-
+        }
+      ]
+    },
+    {
+      "description": "Left Arrow (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "left_arrow",
@@ -144,7 +190,12 @@
               "modifiers": ["left_option"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Left Arrow (RCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "left_arrow",
@@ -155,7 +206,12 @@
               "modifiers": ["right_option"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Left Arrow (LCtrl+LShift)",
+      "manipulators": [
         {
           "from": {
             "key_code": "left_arrow",
@@ -166,7 +222,12 @@
               "modifiers": ["left_option", "left_shift"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Left Arrow (RCtrl+RShift)",
+      "manipulators": [
         {
           "from": {
             "key_code": "left_arrow",
@@ -177,9 +238,12 @@
               "modifiers": ["right_option", "right_shift"]
           }],
           "type": "basic"
-        },
-
-
+        }
+      ]
+    },
+    {
+      "description": "Right Arrow (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "right_arrow",
@@ -190,7 +254,12 @@
               "modifiers": ["left_option"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Right Arrow (RCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "right_arrow",
@@ -201,7 +270,12 @@
               "modifiers": ["right_option"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Right Arrow (LCtrl+LShift)",
+      "manipulators": [
         {
           "from": {
             "key_code": "right_arrow",
@@ -212,7 +286,12 @@
               "modifiers": ["left_option", "left_shift"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Right Arrow (RCtrl+RShift)",
+      "manipulators": [
         {
           "from": {
             "key_code": "right_arrow",
@@ -223,9 +302,12 @@
               "modifiers": ["right_option", "right_shift"]
           }],
           "type": "basic"
-        },
-
-
+        }
+      ]
+    },
+    {
+      "description": "Backspace (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "delete_or_backspace",
@@ -236,7 +318,12 @@
               "modifiers": ["left_option"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Delete (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "delete_forward",
@@ -247,9 +334,12 @@
               "modifiers": ["left_option"]
           }],
           "type": "basic"
-        },
-
-
+        }
+      ]
+    },
+    {
+      "description": "A (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "a",
@@ -260,7 +350,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "B (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "b",
@@ -271,7 +366,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "C (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "c",
@@ -290,7 +390,12 @@
             }
           ],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "F (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "f",
@@ -301,7 +406,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "F1",
+      "manipulators": [
         {
           "from": {
             "key_code": "f1",
@@ -312,7 +422,12 @@
               "modifiers": ["left_command", "left_shift"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "F3",
+      "manipulators": [
         {
           "from": {
             "key_code": "f3",
@@ -323,7 +438,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "I (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "i",
@@ -334,7 +454,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "N (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "n",
@@ -345,7 +470,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "O (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "o",
@@ -356,7 +486,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "P (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "p",
@@ -367,7 +502,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "S (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "s",
@@ -378,7 +518,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "/ (LCtrl) {Note: May be '\\'.}",
+      "manipulators": [
         {
           "from": {
             "key_code": "slash",
@@ -389,7 +534,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "T (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "t",
@@ -404,7 +554,12 @@
             }
           ],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "U (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "u",
@@ -415,7 +570,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "V (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "v",
@@ -426,7 +586,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "X (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "x",
@@ -437,7 +602,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Y (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "y",
@@ -448,7 +618,12 @@
               "modifiers": ["left_command"]
           }],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Z (LCtrl)",
+      "manipulators": [
         {
           "from": {
             "key_code": "z",
