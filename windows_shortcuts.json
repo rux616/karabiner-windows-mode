@@ -364,7 +364,7 @@
       ]
     },
     {
-      "description": "L (Win) [Uses Eject]",
+      "description": "L (Win) [Login Window]",
       "manipulators": [
         {
           "from": {
@@ -372,15 +372,14 @@
             "modifiers": { "mandatory": ["command"], "optional": ["any"] }
           },
           "to": [{
-              "consumer_key_code": "eject",
-              "modifiers": ["command", "shift"]
+              "shell_command": "/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -suspend"
           }],
           "type": "basic"
         }
       ]
     },
     {
-      "description": "L (Win) [Uses Power]",
+      "description": "L (Win) [Lock Screen]",
       "manipulators": [
         {
           "from": {
@@ -388,8 +387,39 @@
             "modifiers": { "mandatory": ["command"], "optional": ["any"] }
           },
           "to": [{
-              "consumer_key_code": "power",
-              "modifiers": ["command", "shift"]
+              "key_code": "power",
+              "modifiers": ["control", "shift"]
+          }],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "L (Alt+Ctrl) [Login Window]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "l",
+            "modifiers": { "mandatory": ["control", "option"], "optional": ["any"] }
+          },
+          "to": [{
+              "shell_command": "/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+          }],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "L (Alt+Ctrl) [Lock Screen]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "l",
+            "modifiers": { "mandatory": ["control", "option"], "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "power",
+              "modifiers": ["control", "shift"]
           }],
           "type": "basic"
         }

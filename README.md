@@ -44,6 +44,10 @@ so they should be easy(ish) to understand. Contact me if you have improvement su
 | C | Ctrl+Shift | C | Command | Only applies to Terminal/iTerm2. |
 | F | Ctrl | F | Command |  |
 | I | Ctrl | I | Command |  |
+| L | Win | (Shell Command) |  | Use only 1 Win+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`.
+| L | Win | Power | Control+Shift | Use only 1 Win+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. |
+| L | Alt+Ctrl | (Shell Command) |  | Use only 1 Alt+Ctrl+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`.
+| L | Alt+Ctrl | Power | Control+Shift | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. |
 | N | Ctrl | N | Command |  |
 | O | Ctrl | O | Command |  |
 | P | Ctrl | P | Command |  |
