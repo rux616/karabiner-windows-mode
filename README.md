@@ -16,20 +16,20 @@ so they should be easy(ish) to understand. Contact me if you have improvement su
 ### Navigation Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
 |-|-|-|-|-|
-| Home | Ctrl+Shift | Up Arrow | Command+Shift |  |
+| Home |  | Left Arrow | Command | Does not apply to Terminal/iTerm2, as they already handle the key correctly. |
 | Home | Ctrl | Up Arrow | Command |  |
 | Home | Shift | Left Arrow | Command+Shift |  |
-| Home |  | Left Arrow | Command | Does not apply to Terminal/iTerm2, as they already handle the key correctly. |
-| End | Ctrl+Shift | Down Arrow | Command+Shift |  |
+| Home | Ctrl+Shift | Up Arrow | Command+Shift |  |
+| End |  | Right Arrow | Command | Does not apply to Terminal/iTerm2, as they already handle the key correctly. |
 | End | Ctrl | Down Arrow | Command |  |
 | End | Shift | Right Arrow | Command+Shift |  |
-| End |  | Right Arrow | Command | Does not apply to Terminal/iTerm2, as they already handle the key correctly. |
+| End | Ctrl+Shift | Down Arrow | Command+Shift |  |
 | Left Arrow | Ctrl | Left Arrow | Option |  |
 | Left Arrow | Ctrl+Shift | Left Arrow | Option+Shift |  |
 | Right Arrow | Ctrl | Right Arrow | Option |  |
 | Right Arrow | Ctrl+Shift | Right Arrow | Option+Shift |  |
 
-### Command (Not THE Command Key) Keys
+### Command Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
 |-|-|-|-|-|
 | Backspace | Ctrl | Backspace | Option |  |
@@ -48,7 +48,6 @@ so they should be easy(ish) to understand. Contact me if you have improvement su
 | O | Ctrl | O | Command |  |
 | P | Ctrl | P | Command |  |
 | S | Ctrl | S | Command |  |
-| / | Ctrl | / | Command |  |
 | T | Ctrl | T | Command |  |
 | U | Ctrl | U | Command |  |
 | V | Ctrl | V | Command |  |
@@ -56,6 +55,11 @@ so they should be easy(ish) to understand. Contact me if you have improvement su
 | X | Ctrl | X | Command |  |
 | Y | Ctrl | Y | Command |  |
 | Z | Ctrl | Z | Command | Does not apply to Terminal/iTerm2 as it is an important command sequence and shouldn't get altered. |
+
+### Punctuation Keys
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
+|-|-|-|-|-|
+| / | Ctrl | / | Command |  |
 
 ### Function Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |

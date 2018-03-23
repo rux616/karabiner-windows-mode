@@ -2,17 +2,26 @@
   "title": "Windows Shortcuts",
   "rules": [
     {
-      "description": "Home (Ctrl+Shift)",
+      "description": "Home [Unless Terminal]",
       "manipulators": [
         {
           "from": {
             "key_code": "home",
-            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
+            "modifiers": {"optional": ["any"]}
           },
           "to": [{
-            "key_code": "up_arrow",
-            "modifiers": ["command", "shift"]
+              "key_code": "left_arrow",
+              "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -50,15 +59,31 @@
       ]
     },
     {
-      "description": "Home [Unless Terminal]",
+      "description": "Home (Ctrl+Shift)",
       "manipulators": [
         {
           "from": {
             "key_code": "home",
+            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
+          },
+          "to": [{
+            "key_code": "up_arrow",
+            "modifiers": ["command", "shift"]
+          }],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "End [Unless Terminal]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "end",
             "modifiers": {"optional": ["any"]}
           },
           "to": [{
-              "key_code": "left_arrow",
+              "key_code": "right_arrow",
               "modifiers": ["command"]
           }],
           "conditions": [
@@ -70,22 +95,6 @@
               ]
             }
           ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "End (Ctrl+Shift)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "end",
-            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
-          },
-          "to": [{
-            "key_code": "down_arrow",
-            "modifiers": ["command", "shift"]
-          }],
           "type": "basic"
         }
       ]
@@ -123,26 +132,17 @@
       ]
     },
     {
-      "description": "End [Unless Terminal]",
+      "description": "End (Ctrl+Shift)",
       "manipulators": [
         {
           "from": {
             "key_code": "end",
-            "modifiers": {"optional": ["any"]}
+            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
           },
           "to": [{
-              "key_code": "right_arrow",
-              "modifiers": ["command"]
+            "key_code": "down_arrow",
+            "modifiers": ["command", "shift"]
           }],
-          "conditions": [
-            {
-              "type": "frontmost_application_unless",
-              "bundle_identifiers": [
-                "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
-              ]
-            }
-          ],
           "type": "basic"
         }
       ]
@@ -211,6 +211,9 @@
         }
       ]
     },
+
+
+
     {
       "description": "Backspace (Ctrl)",
       "manipulators": [
@@ -243,6 +246,9 @@
         }
       ]
     },
+
+
+
     {
       "description": "A (Ctrl)",
       "manipulators": [
@@ -342,38 +348,6 @@
       ]
     },
     {
-      "description": "F1",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "f1",
-            "modifiers": { "optional": ["any"] }
-          },
-          "to": [{
-              "key_code": "slash",
-              "modifiers": ["command", "shift"]
-          }],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "F3",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "f3",
-            "modifiers": { "optional": ["any"] }
-          },
-          "to": [{
-              "key_code": "g",
-              "modifiers": ["command"]
-          }],
-          "type": "basic"
-        }
-      ]
-    },
-    {
       "description": "I (Ctrl)",
       "manipulators": [
         {
@@ -447,22 +421,6 @@
           },
           "to": [{
               "key_code": "s",
-              "modifiers": ["command"]
-          }],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "/ (Ctrl) {Note: May be '\\'.}",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "slash",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
-          },
-          "to": [{
-              "key_code": "slash",
               "modifiers": ["command"]
           }],
           "type": "basic"
@@ -599,6 +557,60 @@
               ]
             }
           ],
+          "type": "basic"
+        }
+      ]
+    },
+
+
+    
+    {
+      "description": "/ (Ctrl)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "slash",
+            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "slash",
+              "modifiers": ["command"]
+          }],
+          "type": "basic"
+        }
+      ]
+    },
+
+
+
+    {
+      "description": "F1",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "f1",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "slash",
+              "modifiers": ["command", "shift"]
+          }],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "F3",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "f3",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "g",
+              "modifiers": ["command"]
+          }],
           "type": "basic"
         }
       ]
