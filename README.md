@@ -66,6 +66,7 @@ so they should be easy(ish) to understand. Contact me if you have improvement su
 |-|-|-|-|-|
 | F1 |  | / | Command+Shift |  |
 | F3 |  | G | Command |  |
+| F4 | Alt | Q | Command |  |
 
 ## Credits
 - [@TechnicallyDifficult](https://github.com/TechnicallyDifficult) for coming up with the initial json file
