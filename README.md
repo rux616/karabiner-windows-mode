@@ -13,6 +13,7 @@ First, a note about how these shortcuts are named in Karabiner-Elements. They fo
 
 so they should be easy(ish) to understand. Contact me if you have improvement suggestions.
 
+### Navigation Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
 |-|-|-|-|-|
 | Home | Ctrl+Shift | Up Arrow | Command+Shift |  |
@@ -27,15 +28,21 @@ so they should be easy(ish) to understand. Contact me if you have improvement su
 | Left Arrow | Ctrl+Shift | Left Arrow | Option+Shift |  |
 | Right Arrow | Ctrl | Right Arrow | Option |  |
 | Right Arrow | Ctrl+Shift | Right Arrow | Option+Shift |  |
+
+### Command (Not THE Command Key) Keys
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
+|-|-|-|-|-|
 | Backspace | Ctrl | Backspace | Option |  |
 | Delete | Ctrl | Delete | Option |  |
+
+### Alphanumeric Keys
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
+|-|-|-|-|-|
 | A | Ctrl | A | Command |  |
 | B | Ctrl | B | Command |  |
 | C | Ctrl | C | Command | Does not apply to Terminal/iTerm2 as it is an important command sequence and shouldn't get altered. |
 | C | Ctrl+Shift | C | Command | Only applies to Terminal/iTerm2. |
 | F | Ctrl | F | Command |  |
-| F1 |  | / | Command+Shift |  |
-| F3 |  | G | Command |  |
 | I | Ctrl | I | Command |  |
 | N | Ctrl | N | Command |  |
 | O | Ctrl | O | Command |  |
@@ -49,6 +56,12 @@ so they should be easy(ish) to understand. Contact me if you have improvement su
 | X | Ctrl | X | Command |  |
 | Y | Ctrl | Y | Command |  |
 | Z | Ctrl | Z | Command | Does not apply to Terminal/iTerm2 as it is an important command sequence and shouldn't get altered. |
+
+### Function Keys
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
+|-|-|-|-|-|
+| F1 |  | / | Command+Shift |  |
+| F3 |  | G | Command |  |
 
 ## Credits
 - [@TechnicallyDifficult](https://github.com/TechnicallyDifficult) for coming up with the initial json file
