@@ -364,7 +364,7 @@
       ]
     },
     {
-      "description": "L (Win)",
+      "description": "L (Win) [Uses Eject]",
       "manipulators": [
         {
           "from": {
@@ -372,8 +372,24 @@
             "modifiers": { "mandatory": ["command"], "optional": ["any"] }
           },
           "to": [{
-              "key_code": "",
-              "modifiers": [""]
+              "consumer_key_code": "eject",
+              "modifiers": ["command", "shift"]
+          }],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "L (Win) [Uses Power]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "l",
+            "modifiers": { "mandatory": ["command"], "optional": ["any"] }
+          },
+          "to": [{
+              "consumer_key_code": "power",
+              "modifiers": ["command", "shift"]
           }],
           "type": "basic"
         }
