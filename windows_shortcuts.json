@@ -301,6 +301,31 @@
       ]
     },
     {
+      "description": "C (Ctrl+Shift) [Only Terminal]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "c",
+            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "c",
+              "modifiers": ["command"]
+          }],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
       "description": "F (Ctrl)",
       "manipulators": [
         {
@@ -492,6 +517,31 @@
               "key_code": "v",
               "modifiers": ["command"]
           }],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "V (Ctrl+Shift) [Only Terminal]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "v",
+            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "v",
+              "modifiers": ["command"]
+          }],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
