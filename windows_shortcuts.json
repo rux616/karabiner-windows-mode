@@ -390,6 +390,22 @@
       ]
     },
     {
+      "description": "L (Win)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "l",
+            "modifiers": { "mandatory": ["command"], "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "",
+              "modifiers": [""]
+          }],
+          "type": "basic"
+        }
+      ]
+    },
+    {
       "description": "N (Ctrl)",
       "manipulators": [
         {
