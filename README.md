@@ -7,7 +7,66 @@ Copy and paste the following URL into your browser window and Karabiner-Elements
     karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/rux616/karabiner-windows-mode/master/windows_shortcuts.json
 
 ## List of Shortcuts
-( to do )
+First, a note about how these shortcuts are named in Karabiner-Elements. They follow the convention
+
+    Key (Modifiers, if any) [Special notes, if any]
+
+so they should be easy(ish) to understand. Contact me if you have improvement suggestions.
+
+### Navigation Keys
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
+|-|-|-|-|-|
+| Home |  | Left Arrow | Command | Does not apply to Terminal/iTerm2, as they already handle the key correctly. |
+| Home | Ctrl | Up Arrow | Command |  |
+| Home | Shift | Left Arrow | Command+Shift |  |
+| Home | Ctrl+Shift | Up Arrow | Command+Shift |  |
+| End |  | Right Arrow | Command | Does not apply to Terminal/iTerm2, as they already handle the key correctly. |
+| End | Ctrl | Down Arrow | Command |  |
+| End | Shift | Right Arrow | Command+Shift |  |
+| End | Ctrl+Shift | Down Arrow | Command+Shift |  |
+| Left Arrow | Ctrl | Left Arrow | Option |  |
+| Left Arrow | Ctrl+Shift | Left Arrow | Option+Shift |  |
+| Right Arrow | Ctrl | Right Arrow | Option |  |
+| Right Arrow | Ctrl+Shift | Right Arrow | Option+Shift |  |
+
+### Command Keys
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
+|-|-|-|-|-|
+| Backspace | Ctrl | Backspace | Option |  |
+| Delete | Ctrl | Delete | Option |  |
+
+### Alphanumeric Keys
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
+|-|-|-|-|-|
+| A | Ctrl | A | Command |  |
+| B | Ctrl | B | Command |  |
+| C | Ctrl | C | Command | Does not apply to Terminal/iTerm2 as it is an important command sequence and shouldn't get altered. |
+| C | Ctrl+Shift | C | Command | Only applies to Terminal/iTerm2. |
+| F | Ctrl | F | Command |  |
+| I | Ctrl | I | Command |  |
+| N | Ctrl | N | Command |  |
+| O | Ctrl | O | Command |  |
+| P | Ctrl | P | Command |  |
+| S | Ctrl | S | Command |  |
+| T | Ctrl | T | Command |  |
+| U | Ctrl | U | Command |  |
+| V | Ctrl | V | Command |  |
+| V | Ctrl+Shift | V | Command | Only applies to Terminal/iTerm2. |
+| X | Ctrl | X | Command |  |
+| Y | Ctrl | Y | Command |  |
+| Z | Ctrl | Z | Command | Does not apply to Terminal/iTerm2 as it is an important command sequence and shouldn't get altered. |
+
+### Punctuation Keys
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
+|-|-|-|-|-|
+| / | Ctrl | / | Command |  |
+
+### Function Keys
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
+|-|-|-|-|-|
+| F1 |  | / | Command+Shift |  |
+| F3 |  | G | Command |  |
+| F4 | Alt | Q | Command |  |
 
 ## Credits
 - [@TechnicallyDifficult](https://github.com/TechnicallyDifficult) for coming up with the initial json file
