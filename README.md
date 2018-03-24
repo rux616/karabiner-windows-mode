@@ -13,14 +13,16 @@ First, a note about how these shortcuts are named in Karabiner-Elements. They fo
 
 so they should be easy(ish) to understand. Contact me if you have improvement suggestions.
 
+Due to Terminal and iTerm2 being terminal emulators, they should receive raw inputs and handle them themselves. To that end, almost all shortcuts no longer apply to these applications. As such, the notes will no longer specify that the specific shortcut does not apply to Terminal/iTerm2 as that is now the default state. Instead, they will note when a shortcut still applies even in the terminal emulator applications.
+
 ### Navigation Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
 |-|-|-|-|-|
-| Home |  | Left Arrow | Command | Does not apply to Terminal/iTerm2, as they already handle the key correctly. |
+| Home |  | Left Arrow | Command |  |
 | Home | Ctrl | Up Arrow | Command |  |
 | Home | Shift | Left Arrow | Command+Shift |  |
 | Home | Ctrl+Shift | Up Arrow | Command+Shift |  |
-| End |  | Right Arrow | Command | Does not apply to Terminal/iTerm2, as they already handle the key correctly. |
+| End |  | Right Arrow | Command |  |
 | End | Ctrl | Down Arrow | Command |  |
 | End | Shift | Right Arrow | Command+Shift |  |
 | End | Ctrl+Shift | Down Arrow | Command+Shift |  |
@@ -34,21 +36,21 @@ so they should be easy(ish) to understand. Contact me if you have improvement su
 |-|-|-|-|-|
 | Backspace | Ctrl | Backspace | Option |  |
 | Delete | Ctrl | Delete | Option |  |
-| Win |  | Launchpad |  |  |
+| Win |  | Launchpad |  | Works in Terminal/iTerm2. |
 
 ### Alphanumeric Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
 |-|-|-|-|-|
 | A | Ctrl | A | Command |  |
 | B | Ctrl | B | Command |  |
-| C | Ctrl | C | Command | Does not apply to Terminal/iTerm2 as it is an important command sequence and shouldn't get altered. |
+| C | Ctrl | C | Command |  |
 | C | Ctrl+Shift | C | Command | Only applies to Terminal/iTerm2. |
 | F | Ctrl | F | Command |  |
 | I | Ctrl | I | Command |  |
-| L | Win | (Shell Command) |  | Use only 1 Win+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`.
-| L | Win | Power | Control+Shift | Use only 1 Win+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. |
-| L | Alt+Ctrl | (Shell Command) |  | Use only 1 Alt+Ctrl+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`.
-| L | Alt+Ctrl | Power | Control+Shift | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. |
+| L | Win | (Shell Command) |  | Use only 1 Win+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`. Works in Terminal/iTerm2. |
+| L | Win | Power | Control+Shift | Use only 1 Win+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. Works in Terminal/iTerm2. |
+| L | Alt+Ctrl | (Shell Command) |  | Use only 1 Alt+Ctrl+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`. Works in Terminal/iTerm2. |
+| L | Alt+Ctrl | Power | Control+Shift | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. Works in Terminal/iTerm2. |
 | N | Ctrl | N | Command |  |
 | O | Ctrl | O | Command |  |
 | P | Ctrl | P | Command |  |
@@ -59,19 +61,19 @@ so they should be easy(ish) to understand. Contact me if you have improvement su
 | V | Ctrl+Shift | V | Command | Only applies to Terminal/iTerm2. |
 | X | Ctrl | X | Command |  |
 | Y | Ctrl | Y | Command |  |
-| Z | Ctrl | Z | Command | Does not apply to Terminal/iTerm2 as it is an important command sequence and shouldn't get altered. |
+| Z | Ctrl | Z | Command |  |
 
 ### Punctuation Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
 |-|-|-|-|-|
-| / | Ctrl | / | Command |  |
+| / | Ctrl | / | Command | Works in Terminal/iTerm2. |
 
 ### Function Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
 |-|-|-|-|-|
 | F1 |  | / | Command+Shift |  |
 | F3 |  | G | Command |  |
-| F4 | Alt | Q | Command |  |
+| F4 | Alt | Q | Command | Works in Terminal/iTerm2. |
 
 ## Credits
 - [@TechnicallyDifficult](https://github.com/TechnicallyDifficult) for coming up with the initial json file
