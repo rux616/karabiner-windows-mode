@@ -34,6 +34,7 @@ so they should be easy(ish) to understand. Contact me if you have improvement su
 |-|-|-|-|-|
 | Backspace | Ctrl | Backspace | Option |  |
 | Delete | Ctrl | Delete | Option |  |
+| Win |  | Launchpad |  |  |
 
 ### Alphanumeric Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
