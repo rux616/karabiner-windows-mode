@@ -474,6 +474,22 @@
       ]
     },
     {
+      "description": "R (Ctrl)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "r",
+            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "r",
+              "modifiers": ["command"]
+          }],
+          "type": "basic"
+        }
+      ]
+    },
+    {
       "description": "S (Ctrl)",
       "manipulators": [
         {
@@ -562,6 +578,22 @@
               ]
             }
           ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "W (Ctrl)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "w",
+            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "w",
+              "modifiers": ["command"]
+          }],
           "type": "basic"
         }
       ]
