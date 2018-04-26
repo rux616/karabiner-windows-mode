@@ -36,7 +36,8 @@ Due to Terminal and iTerm2 being terminal emulators, they should receive raw inp
 |-|-|-|-|-|
 | Backspace | Ctrl | Backspace | Option |  |
 | Delete | Ctrl | Delete | Option |  |
-| Win |  | Launchpad |  | Works in Terminal/iTerm2. |
+
+[//]: # (| Win |  | Launchpad |  | Works in Terminal/iTerm2. |)
 
 ### Alphanumeric Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
