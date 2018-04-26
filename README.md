@@ -54,11 +54,13 @@ Due to Terminal and iTerm2 being terminal emulators, they should receive raw inp
 | N | Ctrl | N | Command |  |
 | O | Ctrl | O | Command |  |
 | P | Ctrl | P | Command |  |
+| R | Ctrl | R | Command |  |
 | S | Ctrl | S | Command |  |
 | T | Ctrl | T | Command |  |
 | U | Ctrl | U | Command |  |
 | V | Ctrl | V | Command |  |
 | V | Ctrl+Shift | V | Command | Only applies to Terminal/iTerm2. |
+| W | Ctrl | W | Command |  |
 | X | Ctrl | X | Command |  |
 | Y | Ctrl | Y | Command |  |
 | Z | Ctrl | Z | Command |  |
@@ -79,6 +81,7 @@ Due to Terminal and iTerm2 being terminal emulators, they should receive raw inp
 - [@TechnicallyDifficult](https://github.com/TechnicallyDifficult) for coming up with the initial json file
 - [@alvaro1728](https://github.com/alvaro1728) for creating the current json file and for [asking the question](https://github.com/tekezo/Karabiner-Elements/issues/249) that got this whole thing started
 - [@tezeko](https://github.com/tekezo) for Karabiner-Elements
+- [@lsissoko](https://github.com/lsissoko) for Ctrl+R and Ctrl+W additions
 
 ## Links
 - Karabiner-Elements [(Homepage)](https://pqrs.org/osx/karabiner/) [(GitHub)](https://github.com/tekezo/Karabiner-Elements)
