@@ -2,7 +2,7 @@
   "title": "Windows Shortcuts",
   "rules": [
     {
-      "description": "Home [Unless Terminal]",
+      "description": "Home",
       "manipulators": [
         {
           "from": {
@@ -38,6 +38,15 @@
             "key_code": "up_arrow",
             "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -54,6 +63,15 @@
             "key_code": "left_arrow",
             "modifiers": ["command", "shift"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -70,12 +88,21 @@
             "key_code": "up_arrow",
             "modifiers": ["command", "shift"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
     },
     {
-      "description": "End [Unless Terminal]",
+      "description": "End",
       "manipulators": [
         {
           "from": {
@@ -111,6 +138,15 @@
             "key_code": "down_arrow",
             "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -127,6 +163,15 @@
             "key_code": "right_arrow",
             "modifiers": ["command", "shift"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -143,6 +188,15 @@
             "key_code": "down_arrow",
             "modifiers": ["command", "shift"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -159,6 +213,15 @@
               "key_code": "left_arrow",
               "modifiers": ["option"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -175,6 +238,15 @@
               "key_code": "left_arrow",
               "modifiers": ["option", "shift"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -191,6 +263,15 @@
               "key_code": "right_arrow",
               "modifiers": ["option"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -207,6 +288,15 @@
               "key_code": "right_arrow",
               "modifiers": ["option", "shift"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -226,6 +316,15 @@
               "key_code": "delete_or_backspace",
               "modifiers": ["option"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -241,6 +340,29 @@
           "to": [{
               "key_code": "delete_forward",
               "modifiers": ["option"]
+          }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Win",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "command"
+          },
+          "to_if_alone": [{
+            "key_code": "launchpad"
           }],
           "type": "basic"
         }
@@ -261,6 +383,15 @@
               "key_code": "a",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -277,12 +408,21 @@
               "key_code": "b",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
     },
     {
-      "description": "C (Ctrl) [Unless Terminal]",
+      "description": "C (Ctrl)",
       "manipulators": [
         {
           "from": {
@@ -343,6 +483,15 @@
               "key_code": "f",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -359,6 +508,15 @@
               "key_code": "i",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -437,6 +595,15 @@
               "key_code": "n",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -453,6 +620,15 @@
               "key_code": "o",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -469,6 +645,15 @@
               "key_code": "p",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -485,6 +670,15 @@
               "key_code": "r",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -501,6 +695,15 @@
               "key_code": "s",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -511,14 +714,20 @@
         {
           "from": {
             "key_code": "t",
-            "modifiers": {
-              "mandatory": [ "control" ],
-              "optional": [ "any" ]
-            }
+            "modifiers": { "mandatory": [ "control" ], "optional": [ "any" ] }
           },
-          "to": [ {
+          "to": [{
               "key_code": "t",
               "modifiers": [ "command" ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
             }
           ],
           "type": "basic"
@@ -537,6 +746,15 @@
               "key_code": "u",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -553,6 +771,15 @@
               "key_code": "v",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -594,6 +821,15 @@
               "key_code": "w",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -610,6 +846,15 @@
               "key_code": "x",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -626,12 +871,21 @@
               "key_code": "y",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
     },
     {
-      "description": "Z (Ctrl) [Unless Terminal]",
+      "description": "Z (Ctrl)",
       "manipulators": [
         {
           "from": {
@@ -689,6 +943,15 @@
               "key_code": "slash",
               "modifiers": ["command", "shift"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -705,6 +968,15 @@
               "key_code": "g",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
