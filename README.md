@@ -17,8 +17,9 @@ There are some applications, such as terminal emulators and virtual machines, th
 
 Excepted Applications:
 * Terminal Emulators
-  * Terminal
+  * Hyper
   * iTerm2
+  * Terminal
 * Virtual Machines
   * VirtualBox VMs (not the VirtualBox manager application)
 
