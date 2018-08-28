@@ -13,7 +13,14 @@ First, a note about how these shortcuts are named in Karabiner-Elements. They fo
 
 so they should be easy(ish) to understand. Contact me if you have improvement suggestions.
 
-Due to Terminal and iTerm2 being terminal emulators, they should receive raw inputs and handle them themselves. To that end, almost all shortcuts no longer apply to these applications. As such, the notes will no longer specify that the specific shortcut does not apply to Terminal/iTerm2 as that is now the default state. Instead, they will note when a shortcut still applies even in the terminal emulator applications.
+There are some applications, such as terminal emulators and virtual machines, that should receive raw inputs and handle them themselves. To that end, almost all shortcuts no longer apply to these applications. As such, the notes will no longer specify that the specific shortcut does not apply to the excepted applications as that is now the default state. Instead, they will note when a shortcut still applies.
+
+Excepted Applications:
+* Terminal Emulators
+  * Terminal
+  * iTerm2
+* Virtual Machines
+  * VirtualBox VMs (not the VirtualBox manager application)
 
 ### Navigation Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
@@ -45,13 +52,13 @@ Due to Terminal and iTerm2 being terminal emulators, they should receive raw inp
 | A | Ctrl | A | Command |  |
 | B | Ctrl | B | Command |  |
 | C | Ctrl | C | Command |  |
-| C | Ctrl+Shift | C | Command | Only applies to Terminal/iTerm2. |
+| C | Ctrl+Shift | C | Command | Only applies to Terminal Emulators. |
 | F | Ctrl | F | Command |  |
 | I | Ctrl | I | Command |  |
-| L | Win | (Shell Command) |  | Use only 1 Win+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`. Works in Terminal/iTerm2. |
-| L | Win | Power | Control+Shift | Use only 1 Win+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. Works in Terminal/iTerm2. |
-| L | Alt+Ctrl | (Shell Command) |  | Use only 1 Alt+Ctrl+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`. Works in Terminal/iTerm2. |
-| L | Alt+Ctrl | Power | Control+Shift | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. Works in Terminal/iTerm2. |
+| L | Win | (Shell Command) |  | Use only 1 Win+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`. Works in Excepted Applications. |
+| L | Win | Power | Control+Shift | Use only 1 Win+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. Works in Excepted Applications. |
+| L | Alt+Ctrl | (Shell Command) |  | Use only 1 Alt+Ctrl+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`. Works in Excepted Applications. |
+| L | Alt+Ctrl | Power | Control+Shift | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. Works in Excepted Applications. |
 | N | Ctrl | N | Command |  |
 | O | Ctrl | O | Command |  |
 | P | Ctrl | P | Command |  |
@@ -60,7 +67,7 @@ Due to Terminal and iTerm2 being terminal emulators, they should receive raw inp
 | T | Ctrl | T | Command |  |
 | U | Ctrl | U | Command |  |
 | V | Ctrl | V | Command |  |
-| V | Ctrl+Shift | V | Command | Only applies to Terminal/iTerm2. |
+| V | Ctrl+Shift | V | Command | Only applies to Terminal Emulators. |
 | W | Ctrl | W | Command |  |
 | X | Ctrl | X | Command |  |
 | Y | Ctrl | Y | Command |  |
@@ -69,14 +76,14 @@ Due to Terminal and iTerm2 being terminal emulators, they should receive raw inp
 ### Punctuation Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
 |-|-|-|-|-|
-| / | Ctrl | / | Command | Works in Terminal/iTerm2. |
+| / | Ctrl | / | Command | Works in Terminal Emulators. |
 
 ### Function Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
 |-|-|-|-|-|
 | F1 |  | / | Command+Shift |  |
 | F3 |  | G | Command |  |
-| F4 | Alt | Q | Command | Works in Terminal/iTerm2. |
+| F4 | Alt | Q | Command | Works in Terminal Emulators. |
 
 ## Credits
 - [@TechnicallyDifficult](https://github.com/TechnicallyDifficult) for coming up with the initial json file

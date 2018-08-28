@@ -18,7 +18,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -43,7 +44,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -68,7 +70,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -93,7 +96,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -118,7 +122,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -143,7 +148,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -168,7 +174,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -193,7 +200,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -218,7 +226,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -243,7 +252,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -268,7 +278,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -293,7 +304,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -321,7 +333,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -346,7 +359,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -388,7 +402,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -413,7 +428,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -438,7 +454,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -488,7 +505,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -513,7 +531,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -600,7 +619,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -625,7 +645,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -650,7 +671,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -675,7 +697,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -700,7 +723,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -726,7 +750,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -751,7 +776,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -776,7 +802,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -826,7 +853,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -851,7 +879,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -876,7 +905,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -901,7 +931,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -924,6 +955,14 @@
               "key_code": "slash",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -948,7 +987,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -973,7 +1013,8 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
               ]
             }
           ],
@@ -993,6 +1034,14 @@
               "key_code": "q",
               "modifiers": ["command"]
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
