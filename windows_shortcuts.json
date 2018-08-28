@@ -2,6 +2,106 @@
   "title": "Windows Shortcuts",
   "rules": [
     {
+      "description": "Insert (Ctrl) [+Terminal Emulators]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "insert",
+            "modifiers": {"mandatory": ["control"], "optional": ["any"]}
+          },
+          "to": [{
+              "key_code": "c",
+              "modifiers": ["command"]
+          }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Insert (Ctrl)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "insert",
+            "modifiers": {"mandatory": ["control"], "optional": ["any"]}
+          },
+          "to": [{
+              "key_code": "c",
+              "modifiers": ["command"]
+          }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Insert (Shift) [+Terminal Emulators]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "insert",
+            "modifiers": {"mandatory": ["shift"], "optional": ["any"]}
+          },
+          "to": [{
+              "key_code": "v",
+              "modifiers": ["command"]
+          }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Insert (Shift)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "insert",
+            "modifiers": {"mandatory": ["shift"], "optional": ["any"]}
+          },
+          "to": [{
+              "key_code": "v",
+              "modifiers": ["command"]
+          }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
       "description": "Home",
       "manipulators": [
         {

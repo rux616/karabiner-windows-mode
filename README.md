@@ -25,6 +25,10 @@ Excepted Applications:
 ### Navigation Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
 |-|-|-|-|-|
+| Insert | Ctrl | C | Command | Use only 1 Ctrl+Insert shortcut. Works in Terminal Emulators. |
+| Insert | Ctrl | C | Command | Use only 1 Ctrl+Insert shortcut. |
+| Insert | Shift | V | Command | Use only 1 Shift+Insert shortcut. Works in Terminal Emulators. |
+| Insert | Shift | V | Command | Use only 1 Shift+Insert shortcut. |
 | Home |  | Left Arrow | Command |  |
 | Home | Ctrl | Up Arrow | Command |  |
 | Home | Shift | Left Arrow | Command+Shift |  |
