@@ -89,6 +89,7 @@ Excepted Applications:
 | F1 |  | / | Command+Shift |  |
 | F3 |  | G | Command |  |
 | F4 | Alt | Q | Command | Works in Terminal Emulators. |
+| F4 | Ctrl | W | Command | Only applies to Google Chrome. |
 
 ## Credits
 - [@TechnicallyDifficult](https://github.com/TechnicallyDifficult) for coming up with the initial json file

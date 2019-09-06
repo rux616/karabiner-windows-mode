@@ -1219,6 +1219,30 @@
           "type": "basic"
         }
       ]
+    },
+    {
+      "description": "F4 (Ctrl) [Only Chrome]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "f4",
+            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "w",
+              "modifiers": ["command"]
+          }],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.google\\.Chrome$"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
     }
   ]
 }
