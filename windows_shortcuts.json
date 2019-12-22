@@ -108,6 +108,93 @@
       ]
     },
     {
+      "description": "CTRL+SHIFT+ENTER Gmail",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "return_or_enter",
+            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "return_or_enter",
+              "modifiers": ["command", "shift"]
+          }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^co\\.zeit\\.hyper$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "CTRL+ENTER Gmail",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "return_or_enter",
+            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "return_or_enter",
+              "modifiers": ["command"]
+          }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^co\\.zeit\\.hyper$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "CTRL+SPACE Spotlight Search",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "spacebar",
+              "modifiers": ["command"]
+          }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^co\\.zeit\\.hyper$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
       "description": "Home",
       "manipulators": [
         {
@@ -127,7 +214,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
               ]
             }
           ],
@@ -155,7 +243,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
               ]
             }
           ],
@@ -183,7 +272,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
               ]
             }
           ],
@@ -211,7 +301,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
               ]
             }
           ],
@@ -239,7 +330,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
               ]
             }
           ],
@@ -267,7 +359,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
               ]
             }
           ],
@@ -295,7 +388,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
               ]
             }
           ],
@@ -323,7 +417,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
               ]
             }
           ],
@@ -351,7 +446,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
               ]
             }
           ],
@@ -379,7 +475,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
               ]
             }
           ],
@@ -407,7 +504,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
               ]
             }
           ],
@@ -435,7 +533,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.citrix\\.XenAppViewer$"
               ]
             }
           ],
