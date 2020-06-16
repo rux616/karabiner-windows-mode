@@ -1,0 +1,35 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on:
+  push:
+    branches: [ workflows ]
+  pull_request:
+    branches: [ workflows ]
+
+jobs:
+  jsonnet-render:
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+    - uses: kakkoyun/action-jsonnetfmt
+    - name: jsonnet-render
+      uses: alexdglover/jsonnet-render@v1
+      with:
+        # Jsonnet file that will be evaluated. Required
+        file: windows_shortcuts.jsonnet
+        # Output directory for evaluating a Jsonnet file that produces multiple
+        # output files. Setting this will add `-m <output_dir>` to the Jsonnet
+        # invocation
+        #output_dir: # optional
+        # Output file for evaluating a Jsonnet file that produces a single
+        # output file. Setting this will write the STDOUT from the Jsonnet
+        # invocation to <output_file>
+        output_file: windows_shortcuts.json
+        # When set to `true`, invokes Jsonnet with the `-S` flag to print the output
+        # verbatim rather than encoded as JSON
+        #plaintext: # optional
