@@ -9,19 +9,20 @@ on:
     branches: [ workflows ]
 
 jobs:
-  jsonnet-render:
+  jsonnet-ci:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    - uses: kakkoyun/action-jsonnetfmt@v0.1.1-alpha
+    - name: jsonnet-fmt
+      uses: kakkoyun/action-jsonnetfmt@v0.1.1-alpha
     - name: jsonnet-render
       uses: alexdglover/jsonnet-render@v1
       with:
         # Jsonnet file that will be evaluated. Required
-        file: windows_shortcuts.jsonnet
+        file: bad_style.jsonnet
         # Output directory for evaluating a Jsonnet file that produces multiple
         # output files. Setting this will add `-m <output_dir>` to the Jsonnet
         # invocation
@@ -29,7 +30,7 @@ jobs:
         # Output file for evaluating a Jsonnet file that produces a single
         # output file. Setting this will write the STDOUT from the Jsonnet
         # invocation to <output_file>
-        output_file: windows_shortcuts.json
+        output_file: bad_style.json
         # When set to `true`, invokes Jsonnet with the `-S` flag to print the output
         # verbatim rather than encoded as JSON
         #plaintext: # optional
