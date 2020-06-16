@@ -9,10 +9,10 @@ local arr2 = [
 
 local bad_local = [
   'something',
-]
+];
 
 {
   bad:
     arr1 +
-    arr2 +
+    arr2
 }
