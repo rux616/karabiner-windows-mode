@@ -14,8 +14,8 @@ jobs:
     - uses: dadav/jsonnet-lint-action@master
       with:
         targets: |
-          '*.jsonnet'
-          '*.libsonnet'
+          *.jsonnet
+          *.libsonnet
 
     # https://github.com/marketplace/actions/jsonnetfmt
     - uses: kakkoyun/action-jsonnetfmt@v0.1.1-alpha
