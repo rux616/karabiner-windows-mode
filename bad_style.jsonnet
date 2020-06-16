@@ -1,3 +1,3 @@
 {
-                  bad:                 'style',
-                    }
+  bad: 'style',
+}

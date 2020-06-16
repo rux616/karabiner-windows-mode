@@ -1,4 +1,4 @@
-name: jsonnet-render
+name: CI
 
 on:
   push:
