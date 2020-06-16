@@ -10,12 +10,13 @@ jobs:
     # https://github.com/marketplace/actions/checkout
     - uses: actions/checkout@v2
 
+    # note: jsonnet-lint is not ready for GA, commenting out for now
     # https://github.com/marketplace/actions/jsonnet-lint
-    - uses: dadav/jsonnet-lint-action@master
-      with:
-        targets: |
-          *.jsonnet
-          *.libsonnet
+    #- uses: dadav/jsonnet-lint-action@master
+    #  with:
+    #    targets: |
+    #      *.jsonnet
+    #      *.libsonnet
 
     # https://github.com/marketplace/actions/jsonnetfmt
     - uses: kakkoyun/action-jsonnetfmt@v0.1.1-alpha
