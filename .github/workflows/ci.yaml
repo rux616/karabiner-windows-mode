@@ -16,7 +16,7 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    - uses: kakkoyun/action-jsonnetfmt
+    - uses: kakkoyun/action-jsonnetfmt@v0.1.1-alpha
     - name: jsonnet-render
       uses: alexdglover/jsonnet-render@v1
       with:
