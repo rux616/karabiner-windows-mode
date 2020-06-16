@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  jsonnet-render:
+    runs-on: ubuntu-latest
+
+    steps:
+    # https://github.com/marketplace/actions/checkout
+    - uses: actions/checkout@v2
+
+    # https://github.com/marketplace/actions/jsonnet-render
+    - uses: alexdglover/jsonnet-render@v1
+      with:
+        file: windows_shortcuts.jsonnet
+        output_file: windows_shortcuts.json
+
+    # https://github.com/marketplace/actions/git-auto-commit
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Render JSON
+        push_options: --force

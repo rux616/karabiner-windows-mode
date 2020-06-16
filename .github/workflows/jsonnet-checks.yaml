@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - 'master'
+  push:
+    branches:
+      - '**'
+
+jobs:
+  jsonnet-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+    # https://github.com/marketplace/actions/checkout
+    - uses: actions/checkout@v2
+
+    # note: jsonnet-lint is not ready for GA, commenting out for now
+    # https://github.com/marketplace/actions/jsonnet-lint
+    #- uses: dadav/jsonnet-lint-action@master
+    #  with:
+    #    targets: |
+    #      *.jsonnet
+    #      *.libsonnet
+
+    # https://github.com/marketplace/actions/jsonnet-render
+    - uses: alexdglover/jsonnet-render@v1
+      with:
+        file: windows_shortcuts.jsonnet
+        output_file: '/dev/null'
+
+    # https://github.com/marketplace/actions/jsonnetfmt
+    - uses: kakkoyun/action-jsonnetfmt@v0.1.1-alpha
