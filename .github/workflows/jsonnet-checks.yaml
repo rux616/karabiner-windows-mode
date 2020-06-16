@@ -6,7 +6,7 @@ on:
       - 'master'
   push:
     branches:
-      - '*'
+      - '**'
       - '!master'
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
     # https://github.com/marketplace/actions/jsonnet-render
     - uses: alexdglover/jsonnet-render@v1
       with:
-        file: bad_syntax.jsonnet
+        file: windows_shortcuts.jsonnet
         output_file: '/dev/null'
 
     # https://github.com/marketplace/actions/jsonnetfmt
