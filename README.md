@@ -1,5 +1,5 @@
 # karabiner-windows-mode
-Karabiner-Elements complex ruleset to make using Mac OS more sane by enabling common keyboard functionality used in Linux and Windows.
+Karabiner-Elements complex ruleset to make using Mac OS more sane by enabling common keyboard functionality used in Linux and Windows. Now powered by [Jsonnet](https://jsonnet.org).
 
 ## Installation
 Copy and paste the following URL into your browser window and Karabiner-Elements *should* ask to install the file:
@@ -15,13 +15,22 @@ so they should be easy(ish) to understand. Contact me if you have improvement su
 
 There are some applications, such as terminal emulators and virtual machines, that should receive raw inputs and handle them themselves. To that end, almost all shortcuts no longer apply to these applications. As such, the notes will no longer specify that the specific shortcut does not apply to the excepted applications as that is now the default state. Instead, they will note when a shortcut still applies.
 
-Excepted Applications:
+Generally Excepted Applications:
+* Hypervisors
+  * Oracle VirtualBox VMs (not the VirtualBox manager application)
+  * VMware Fusion
+* IDEs
+  * JetBrains IntelliJ IDEA CE
+  * Sublime Text
+  * Microsoft VSCode
+* Remote Desktops
+  * Microsoft Remote Desktop Connection
+  * Citrix XenAppViewer
 * Terminal Emulators
+  * Alacritty
   * Hyper
   * iTerm2
   * Terminal
-* Virtual Machines
-  * VirtualBox VMs (not the VirtualBox manager application)
 
 ### Navigation Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
@@ -48,7 +57,10 @@ Excepted Applications:
 |-|-|-|-|-|
 | Backspace | Ctrl | Backspace | Option |  |
 | Delete | Ctrl | Delete | Option |  |
+| Enter | Ctrl | Enter | Command |  |
+| Enter | Ctrl+Shift | Enter | Command+Shift |  |
 
+[//]: # (### Modifier Keys)
 [//]: # (| Win |  | Launchpad |  | Works in Terminal/iTerm2. |)
 
 ### Alphanumeric Keys
@@ -82,6 +94,7 @@ Excepted Applications:
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
 |-|-|-|-|-|
 | / | Ctrl | / | Command | Works in Terminal Emulators. |
+| Space | Ctrl | Space | Command |  |
 
 ### Function Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
@@ -96,6 +109,20 @@ Excepted Applications:
 - [@alvaro1728](https://github.com/alvaro1728) for creating the current json file and for [asking the question](https://github.com/tekezo/Karabiner-Elements/issues/249) that got this whole thing started
 - [@tezeko](https://github.com/tekezo) for Karabiner-Elements
 - [@lsissoko](https://github.com/lsissoko) for Ctrl+R and Ctrl+W additions
+- [@aperlstein](https://github.com/aperlstein) for adding Ctrl+Enter, Ctrl+Shift+Enter, Ctrl+Space, and for adding Citrix XenAppViewer to list of exceptions
+- [@Ivanca](https://github.com/Ivanca) for adding IDEs to list of exceptions
+- [@from-nibly](https://github.com/from-nibly) for adding VMware Fusion to list of exceptions
 
 ## Links
 - Karabiner-Elements [(Homepage)](https://pqrs.org/osx/karabiner/) [(GitHub)](https://github.com/tekezo/Karabiner-Elements)
+
+## Contributing
+PRs and issues are welcome. Please refrain from making changes directly to `windows_shortcuts.json` and instead make your additions in the `*.libsonnet` and `*.jsonnet` files.
+
+For testing, get [Jsonnet](https://jsonnet.org) and use the following command to ensure your changes are valid:
+
+```shell
+jsonnet -o windows_shortcuts.json windows_shortcuts.jsonnet
+```
+
+**MAKE SURE TO ADD YOUR CHANGES TO THE RELEVANT PLACES IN THE README**
