@@ -13,7 +13,7 @@ jobs:
     # https://github.com/marketplace/actions/jsonnet-lint
     - uses: dadav/jsonnet-lint-action@master
       with:
-        targets: *
+        targets: '*'
 
     # https://github.com/marketplace/actions/jsonnetfmt
     - uses: kakkoyun/action-jsonnetfmt@v0.1.1-alpha
