@@ -18,9 +18,9 @@ jobs:
       with:
         file: windows_shortcuts.jsonnet
         output_file: windows_shortcuts.json
+        plaintext: true
 
     # https://github.com/marketplace/actions/git-auto-commit
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Auto-render JSON
-        plaintext: true
