@@ -68,7 +68,6 @@
     },
   },
 
-
   // outputShell
   //
   // command (string, required)
@@ -91,5 +90,4 @@
     type: 'frontmost_application_' + type,
     bundle_identifiers: bundles,
   },
-
 }
