@@ -1,9 +1,9 @@
 name: Check
 
 on:
-  pull_request:
+  push:
     branches:
-      - 'master'
+      - '**'
 
 jobs:
   jsonnet-checks:
