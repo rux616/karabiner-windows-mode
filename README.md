@@ -1,5 +1,5 @@
 # karabiner-windows-mode
-Karabiner-Elements complex ruleset to make using Mac OS more sane by enabling common keyboard functionality used in Linux and Windows. Now powered by [Jsonnet](https://jsonnet.org).
+Karabiner-Elements complex ruleset to make using Mac OS more sane by enabling common keyboard functionality used in Linux and Windows. Now powered by [Jsonnet](https://jsonnet.org), allowing the main file that needs to be interacted with (`windows_shortcuts.jsonnet`) to be much shorter and far more readable.
 
 ## Installation
 Copy and paste the following URL into your browser window and Karabiner-Elements *should* ask to install the file:
@@ -13,7 +13,7 @@ First, a note about how these shortcuts are named in Karabiner-Elements. They fo
 
 so they should be easy(ish) to understand. Contact me if you have improvement suggestions.
 
-There are some applications, such as terminal emulators and virtual machines, that should receive raw inputs and handle them themselves. To that end, almost all shortcuts no longer apply to these applications. As such, the notes will no longer specify that the specific shortcut does not apply to the excepted applications as that is now the default state. Instead, they will note when a shortcut still applies.
+There are some applications, such as hypervisors, IDEs, remote desktops, and terminal emulators, that should receive raw inputs and handle them themselves. To that end, almost all shortcuts no longer apply to these applications. As such, the notes will no longer specify that the specific shortcut does not apply to the excepted applications as that is now the default state. Instead, they will note when a shortcut still applies.
 
 Generally Excepted Applications:
 * Hypervisors
@@ -119,10 +119,16 @@ Generally Excepted Applications:
 ## Contributing
 PRs and issues are welcome. Please refrain from making changes directly to `windows_shortcuts.json` and instead make your additions in the `*.libsonnet` and `*.jsonnet` files.
 
-For testing, get [Jsonnet](https://jsonnet.org) and use the following command to ensure your changes are valid:
+For testing, get [Jsonnet](https://jsonnet.org) (I use the [C++ version](https://github.com/google/jsonnet) personally, but a [Go version](https://github.com/google/go-jsonnet) is also available), render the json file locally (`jsonnet -o test.json windows_shortcuts.jsonnet`) and test it in Karabiner Elements to ensure your changes work how you think they should work.
+
+Once your testing is done, use the following command to ensure your changes are syntactically valid jsonnet and that they are formatted:
 
 ```shell
-jsonnet -o windows_shortcuts.json windows_shortcuts.jsonnet
+jsonnet windows_shortcuts.jsonnet >/dev/null && \
+  jsonnetfmt -i *.jsonnet *.libsonnet && \
+  echo "Checked and formatted!"
 ```
 
-**MAKE SURE TO ADD YOUR CHANGES TO THE RELEVANT PLACES IN THE README**
+If you see "Checked and formatted!" then you should be ready to commit your changes and submit a PR.
+
+**MAKE SURE TO NOTE YOUR CHANGES IN THE RELEVANT PLACES IN THE README**
