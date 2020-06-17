@@ -22,4 +22,5 @@ jobs:
     # https://github.com/marketplace/actions/git-auto-commit
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Render JSON
+        commit_message: Auto-render JSON
+        plaintext: true
