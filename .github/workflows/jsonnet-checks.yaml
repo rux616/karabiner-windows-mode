@@ -1,12 +1,9 @@
-name: CI
+name: Check
 
 on:
   pull_request:
     branches:
       - 'master'
-  push:
-    branches:
-      - '**'
 
 jobs:
   jsonnet-checks:
