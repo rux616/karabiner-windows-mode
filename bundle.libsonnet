@@ -7,6 +7,7 @@
   hypervisors: [
     '^org\\.virtualbox\\.app\\.VirtualBoxVM$',
     '^org\\.vmware\\.fusion$',
+    '^com\\.parallels\\.desktop\\.console$',
   ],
 
   // bundle identifiers for IDE applications
