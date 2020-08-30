@@ -19,6 +19,7 @@ Generally Excepted Applications:
 * Hypervisors
   * Oracle VirtualBox VMs (not the VirtualBox manager application)
   * VMware Fusion
+  * Parallels
 * IDEs
   * JetBrains IntelliJ IDEA CE
   * Sublime Text
