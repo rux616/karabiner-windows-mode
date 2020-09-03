@@ -1,0 +1,50 @@
+name: Acceptance Tests
+
+on:
+  pull_request:
+    branches:
+      - 'master'
+
+jobs:
+  jsonnetsyntax:
+    name: Jsonnet Syntax
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Checkout Repo
+      # https://github.com/marketplace/actions/checkout
+      uses: actions/checkout@v2
+    - name: Install Jsonnet
+      run: sudo apt-get install -y jsonnet
+    - name: Test Syntactic Validity
+      run: .github/render_json.sh
+
+  jsonnetfmt:
+    name: Jsonnet Formatting
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Checkout Repo
+      # https://github.com/marketplace/actions/checkout
+      uses: actions/checkout@v2
+    - name: Install Jsonnet
+      run: sudo apt-get install -y jsonnet
+    - name: Test Jsonnet Formatting
+      run: .github/jsonnet_format_check.sh
+
+  jsondiff:
+    name: Show JSON Diff
+    runs-on: ubuntu-20.04
+    needs:
+    - jsonnetsyntax
+    - jsonnetfmt
+    steps:
+    - name: Checkout Repo
+      # https://github.com/marketplace/actions/checkout
+      uses: actions/checkout@v2
+    - name: Install Jsonnet
+      run: sudo apt-get install -y jsonnet
+    - name: Render JSON
+      run: .github/render_json.sh
+    - name: Show JSON Diff
+      run: .github/json_diff_pr_comment.sh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

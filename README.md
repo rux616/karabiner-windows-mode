@@ -118,7 +118,7 @@ Generally Excepted Applications:
 - Karabiner-Elements [(Homepage)](https://pqrs.org/osx/karabiner/) [(GitHub)](https://github.com/tekezo/Karabiner-Elements)
 
 ## Contributing
-PRs and issues are welcome. Please refrain from making changes directly to `windows_shortcuts.json` and instead make your additions in the `*.jsonnet` and `*.libsonnet` files, then render the json file via `jsonnet`
+PRs and issues are welcome. Please refrain from making changes directly to `windows_shortcuts.json` (all JSON files will be rendered automatically as necessary on a push to the master branch) and instead make your additions in the `*.jsonnet` and `*.libsonnet` files, then render the json file via `jsonnet`
 
 For testing, get [Jsonnet](https://jsonnet.org) (I use the [C++ version](https://github.com/google/jsonnet) personally, but a [Go version](https://github.com/google/go-jsonnet) is also available), render the json file locally (`jsonnet -o windows_shortcuts.json windows_shortcuts.jsonnet`) and test it in Karabiner Elements to ensure your changes work how you think they should work.
 
