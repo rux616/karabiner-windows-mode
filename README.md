@@ -1,5 +1,5 @@
 # karabiner-windows-mode
-Karabiner-Elements complex ruleset to make using Mac OS more sane by enabling common keyboard functionality used in Linux and Windows. Now powered by [Jsonnet](https://jsonnet.org), allowing the main file that needs to be interacted with (`windows_shortcuts.jsonnet`) to be much shorter and far more readable.
+Karabiner-Elements complex ruleset to make using Mac OS more sane by enabling common keyboard functionality used in Linux and Windows. Now powered by [Jsonnet](https://jsonnet.org), allowing the main files that need to be interacted with (`*.jsonnet` and `*.libsonnet`) to be much shorter and far more readable.
 
 ## Installation
 Copy and paste the following URL into your browser window and Karabiner-Elements *should* ask to install the file:
@@ -118,7 +118,7 @@ Generally Excepted Applications:
 - Karabiner-Elements [(Homepage)](https://pqrs.org/osx/karabiner/) [(GitHub)](https://github.com/tekezo/Karabiner-Elements)
 
 ## Contributing
-PRs and issues are welcome. Please refrain from making changes directly to `windows_shortcuts.json` (all JSON files will be rendered automatically as necessary on a push to the master branch) and instead make your additions in the `*.jsonnet` and `*.libsonnet` files and submit a PR. A comment will automatically be added to the PR showing any JSON changes that will result.
+PRs and issues are welcome. Please refrain from making changes directly to `windows_shortcuts.json` (all JSON files will be rendered automatically as necessary on a push to the master branch) and instead make your additions in the `*.jsonnet` and `*.libsonnet` files and submit a PR. A comment will automatically be added to the PR showing any JSON changes that will result (still working the kinks out of this feature).
 
 For testing, get [Jsonnet](https://jsonnet.org) (I use the [C++ version](https://github.com/google/jsonnet) personally, but a [Go version](https://github.com/google/go-jsonnet) is also available), render the json file locally (`jsonnet -o windows_shortcuts.json windows_shortcuts.jsonnet`) and test it in Karabiner Elements to ensure your changes work how you think they should work.
 
