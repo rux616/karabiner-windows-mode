@@ -14,6 +14,7 @@
   ides: [
     '^com\\.microsoft\\.VSCode$',
     '^com\\.jetbrains\\.intellij\\.ce$',
+    "^com\\.jetbrains\\.pycharm$",
     '^com\\.sublimetext\\.3$',
   ],
 
