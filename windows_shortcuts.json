@@ -12,6 +12,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -58,6 +59,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -100,6 +102,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -146,6 +149,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -192,6 +196,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -235,6 +240,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -281,6 +287,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -328,6 +335,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -376,6 +384,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -419,6 +428,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -465,6 +475,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -512,6 +523,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -560,6 +572,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -606,6 +619,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -654,6 +668,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -700,6 +715,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -748,6 +764,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -794,6 +811,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -840,6 +858,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -886,6 +905,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -950,6 +970,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -996,6 +1017,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1042,6 +1064,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1127,6 +1150,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1173,6 +1197,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1325,6 +1350,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1371,6 +1397,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1417,6 +1444,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1463,6 +1491,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1509,6 +1538,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1555,6 +1585,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1601,6 +1632,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1647,6 +1679,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1732,6 +1765,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1778,6 +1812,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1824,6 +1859,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1870,6 +1906,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1912,6 +1949,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1958,6 +1996,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -2004,6 +2043,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -2048,6 +2088,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -2087,6 +2128,7 @@
                         "^com\\.parallels\\.desktop\\.console$",
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.pycharm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
