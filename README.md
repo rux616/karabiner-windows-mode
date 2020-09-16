@@ -1,6 +1,8 @@
 # karabiner-windows-mode
 Karabiner-Elements complex ruleset to make using Mac OS more sane by enabling common keyboard functionality used in Linux and Windows. Now powered by [Jsonnet](https://jsonnet.org), allowing the main files that need to be interacted with (`*.jsonnet` and `*.libsonnet`) to be much shorter and far more readable.
 
+If you'd like to contribute to this project, please check the [Contributing](#Contributing) section.
+
 ## Installation
 Copy and paste the following URL into your browser window and Karabiner-Elements *should* ask to install the file:
 
@@ -120,8 +122,27 @@ Generally Excepted Applications:
 - Karabiner-Elements [(Homepage)](https://pqrs.org/osx/karabiner/) [(GitHub)](https://github.com/tekezo/Karabiner-Elements)
 
 ## Contributing
-PRs and issues are welcome. Please refrain from making changes directly to `windows_shortcuts.json` (all JSON files will be rendered automatically as necessary on a push to the master branch) and instead make your additions in the `*.jsonnet` and `*.libsonnet` files and submit a PR. A comment will automatically be added to the PR showing any JSON changes that will result (still working the kinks out of this feature).
 
+Pull requests (PRs) and issues are welcome! But first, some notes:
+
+- Make sure to note your changes in the relevant places in the readme
+- Remember to give yourself credit in [Credits](#Credits) section
+- Don't change any `*.json` files! They are automatically rendered and your changes will be overridden.
+
+Please refrain from making changes directly to any `*.json` files (all JSON files will be rendered automatically as necessary on a push to the master branch) and instead make your additions in the `*.jsonnet` and `*.libsonnet` files and submit a PR. A comment will automatically be added to the PR showing any JSON changes that will result (still working the kinks out of this feature).
+
+### Adding Exceptions
+When adding exceptions, you will need the applications "bundle identifier". To get this, you can use the following AppleScript ([SuperUser thread](https://superuser.com/q/346369)):
+
+```applescript
+osascript -e 'id of app "<application>"'
+```
+
+In the above example, `<application>` is the name of the application, such as `Finder` or `Microsoft Excel`.
+
+Once you have the bundle identifier, which will be, for example, `com.microsoft.VSCode` for Microsoft VSCode, you will need to add it to the `bundle.libsonnet` file in the appropriate section. Since VSCode is an IDE, we would add it to the `ides: [ ... ],` section. Make sure to add `^` at the beginning, and `$` at the end of the identifier, and to add `\\` before any periods. (Look in the file and follow the pattern.)
+
+### Testing
 For testing, get [Jsonnet](https://jsonnet.org) (I use the [C++ version](https://github.com/google/jsonnet) personally, but a [Go version](https://github.com/google/go-jsonnet) is also available), render the json file locally (`jsonnet -o windows_shortcuts.json windows_shortcuts.jsonnet`) and test it in Karabiner Elements to ensure your changes work how you think they should work.
 
 Once your testing is done, use the following command to ensure your changes are syntactically valid jsonnet and that they are formatted:
@@ -133,5 +154,3 @@ jsonnet windows_shortcuts.jsonnet >/dev/null && \
 ```
 
 If you see "Checked and formatted!" then you should be ready to commit your changes and submit a PR.
-
-**MAKE SURE TO NOTE YOUR CHANGES IN THE RELEVANT PLACES IN THE README**
