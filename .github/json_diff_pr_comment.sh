@@ -20,7 +20,7 @@ git fetch -q --no-tags --prune --depth=1 origin +refs/heads/master:refs/remotes/
 git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 git config --global user.name "${GITHUB_ACTOR}"
 git add -- ./**/*.json
-git commit -qm 'dummy commit message'
+git commit --allow-empty -qm 'dummy commit message'
 
 
 printf 'Analyzing changes\n'

@@ -1,7 +1,7 @@
 name: Acceptance Tests
 
 on:
-  pull_request:
+  pull_request_target:
     branches:
       - 'master'
 
@@ -13,6 +13,8 @@ jobs:
     - name: Checkout Repo
       # https://github.com/marketplace/actions/checkout
       uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
     - name: Install Jsonnet
       run: sudo apt-get install -y jsonnet
     - name: Test Syntactic Validity
@@ -25,6 +27,8 @@ jobs:
     - name: Checkout Repo
       # https://github.com/marketplace/actions/checkout
       uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
     - name: Install Jsonnet
       run: sudo apt-get install -y jsonnet
     - name: Test Jsonnet Formatting
@@ -40,6 +44,8 @@ jobs:
     - name: Checkout Repo
       # https://github.com/marketplace/actions/checkout
       uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
     - name: Install Jsonnet
       run: sudo apt-get install -y jsonnet
     - name: Render JSON
