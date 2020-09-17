@@ -2,8 +2,8 @@
 // IMPORTS //
 //---------//
 
-local bundle = import 'bundle.libsonnet';
-local k = import 'karabiner.libsonnet';
+local bundle = import 'lib/bundle.libsonnet';
+local k = import 'lib/karabiner.libsonnet';
 
 
 //------//
