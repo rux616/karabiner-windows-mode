@@ -6,7 +6,7 @@ If you'd like to contribute to this project, please check the [Contributing](#Co
 ## Installation
 Copy and paste the following URL into your browser window and Karabiner-Elements *should* ask to install the file:
 
-    karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/rux616/karabiner-windows-mode/master/windows_shortcuts.json
+    karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/rux616/karabiner-windows-mode/master/json/windows_shortcuts.json
 
 ## List of Shortcuts
 First, a note about how these shortcuts are named in Karabiner-Elements. They follow the convention
@@ -143,13 +143,13 @@ In the above example, `<application>` is the name of the application, such as `F
 Once you have the bundle identifier, which will be, for example, `com.microsoft.VSCode` for Microsoft VSCode, you will need to add it to the `bundle.libsonnet` file in the appropriate section. Since VSCode is an IDE, we would add it to the `ides: [ ... ],` section. Make sure to add `^` at the beginning, and `$` at the end of the identifier, and to add `\\` before any periods. (Look in the file and follow the pattern.)
 
 ### Testing
-For testing, get [Jsonnet](https://jsonnet.org) (I use the [C++ version](https://github.com/google/jsonnet) personally, but a [Go version](https://github.com/google/go-jsonnet) is also available), render the json file locally (`jsonnet -o windows_shortcuts.json windows_shortcuts.jsonnet`) and test it in Karabiner Elements to ensure your changes work how you think they should work.
+For testing, get [Jsonnet](https://jsonnet.org) (I use the [C++ version](https://github.com/google/jsonnet) personally, but a [Go version](https://github.com/google/go-jsonnet) is also available), render the json file locally (`jsonnet -- ./jsonnet/windows_shortcuts.jsonnet >./json/windows_shortcuts.json`) and test it in Karabiner Elements to ensure your changes work how you think they should work.
 
 Once your testing is done, use the following command to ensure your changes are syntactically valid jsonnet and that they are formatted:
 
 ```shell
-jsonnet windows_shortcuts.jsonnet >/dev/null && \
-  jsonnetfmt -i *.jsonnet *.libsonnet && \
+jsonnet -- ./jsonnet/windows_shortcuts.jsonnet >/dev/null && \
+  jsonnetfmt -i -- ./jsonnet/*.jsonnet ./jsonnet/lib/*.libsonnet && \
   echo "Checked and formatted!"
 ```
 
