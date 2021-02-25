@@ -15,6 +15,7 @@
     '^com\\.microsoft\\.VSCode$',
     '^com\\.jetbrains\\.intellij\\.ce$',
     '^com\\.jetbrains\\.pycharm$',
+    '^com\\.jetbrains\\.PhpStorm$',
     '^com\\.sublimetext\\.3$',
   ],
 
