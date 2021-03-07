@@ -25,6 +25,7 @@ Generally Excepted Applications:
 * IDEs
   * JetBrains IntelliJ IDEA CE
   * JetBrains PyCharm
+  * JetBrains PhpStorm
   * Sublime Text
   * Microsoft VSCode
 * Remote Desktops
@@ -117,6 +118,7 @@ Generally Excepted Applications:
 - [@Ivanca](https://github.com/Ivanca) for adding IDEs to list of exceptions
 - [@from-nibly](https://github.com/from-nibly) for adding VMware Fusion to list of exceptions
 - [@andormarkus](https://github.com/andormarkus) for adding JetBrains PyCharm to list of exceptions
+- [@amateescu](https://github.com/amateescu) for adding JetBrains PhpStorm to list of exceptions
 
 ## Links
 - Karabiner-Elements [(Homepage)](https://pqrs.org/osx/karabiner/) [(GitHub)](https://github.com/tekezo/Karabiner-Elements)
