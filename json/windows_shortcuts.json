@@ -13,6 +13,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -60,6 +61,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -103,6 +105,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -150,6 +153,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -197,6 +201,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -241,6 +246,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -288,6 +294,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -336,6 +343,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -385,6 +393,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -429,6 +438,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -476,6 +486,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -524,6 +535,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -573,6 +585,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -620,6 +633,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -669,6 +683,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -716,6 +731,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -765,6 +781,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -812,6 +829,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -859,6 +877,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -906,6 +925,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -971,6 +991,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1018,6 +1039,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1065,6 +1087,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1151,6 +1174,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1198,6 +1222,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1351,6 +1376,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1398,6 +1424,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1445,6 +1472,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1492,6 +1520,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1539,6 +1568,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1586,6 +1616,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1633,6 +1664,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1680,6 +1712,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1766,6 +1799,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1813,6 +1847,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1860,6 +1895,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1907,6 +1943,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1950,6 +1987,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -1997,6 +2035,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -2044,6 +2083,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -2089,6 +2129,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
@@ -2129,6 +2170,7 @@
                         "^com\\.microsoft\\.VSCode$",
                         "^com\\.jetbrains\\.intellij\\.ce$",
                         "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.PhpStorm$",
                         "^com\\.sublimetext\\.3$",
                         "^com\\.microsoft\\.rdc\\.macos$",
                         "^com\\.citrix\\.XenAppViewer$"
