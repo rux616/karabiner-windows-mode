@@ -16,6 +16,7 @@
     '^com\\.jetbrains\\.intellij\\.ce$',
     '^com\\.jetbrains\\.pycharm$',
     '^com\\.jetbrains\\.PhpStorm$',
+    '^com\\.jetbrains\\.rider$',
     '^com\\.sublimetext\\.3$',
     '^org\\.gnu\\.emacs$',
   ],
