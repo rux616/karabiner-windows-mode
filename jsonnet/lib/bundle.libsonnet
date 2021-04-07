@@ -17,6 +17,7 @@
     '^com\\.jetbrains\\.pycharm$',
     '^com\\.jetbrains\\.PhpStorm$',
     '^com\\.sublimetext\\.3$',
+    '^org\\.gnu\\.emacs$',
   ],
 
   // bundle identifiers for remote desktop applications
