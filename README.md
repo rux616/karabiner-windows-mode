@@ -122,7 +122,7 @@ Generally Excepted Applications:
 - [@andormarkus](https://github.com/andormarkus) for adding JetBrains PyCharm to list of exceptions
 - [@amateescu](https://github.com/amateescu) for adding JetBrains PhpStorm to list of exceptions
 - [@vidurb](https://github.com/vidurb) for adding GNU Emacs to list of exceptions
-- [@jkluch]() for adding Microsoft RDC to list of exceptions
+- [@jkluch](https://github.com/jkluch) for adding Microsoft RDC to list of exceptions
 - [@csmager](https://github.com/csmager) for adding Parallels and JetBrains Rider to list of exceptions
 
 ## Links
