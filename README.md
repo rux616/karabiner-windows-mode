@@ -26,6 +26,7 @@ Generally Excepted Applications:
   * JetBrains IntelliJ IDEA CE
   * JetBrains PyCharm
   * JetBrains PhpStorm
+  * JetBrains Rider
   * Sublime Text
   * Microsoft VSCode
 * Remote Desktops
