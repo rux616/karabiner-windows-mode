@@ -75,7 +75,7 @@ Generally Excepted Applications:
 |-|-|-|-|-|
 | A | Ctrl | A | Command |  |
 | B | Ctrl | B | Command |  |
-| C | Ctrl | C | Command |  |
+| C | Left Ctrl | C | Command |  |
 | C | Ctrl+Shift | C | Command | Only applies to Terminal Emulators. |
 | F | Ctrl | F | Command |  |
 | I | Ctrl | I | Command |  |

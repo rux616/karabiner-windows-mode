@@ -109,7 +109,7 @@ local k = import 'lib/karabiner.libsonnet';
            k.outputKey('b', ['command']),
            k.condition('unless', bundle.standard)),
     k.rule('C (Ctrl)',
-           k.input('c', ['control']),
+           k.input('c', ['left_control']),
            k.outputKey('c', ['command']),
            k.condition('unless', bundle.standard)),
     k.rule('C (Ctrl+Shift) [Only Terminal Emulators]',
