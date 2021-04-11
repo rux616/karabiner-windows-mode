@@ -1145,7 +1145,7 @@
                   "key_code": "c",
                   "modifiers": {
                      "mandatory": [
-                        "control"
+                        "left_control"
                      ],
                      "optional": [
                         "any"
