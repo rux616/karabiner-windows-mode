@@ -152,12 +152,4 @@ Once you have the bundle identifier, which will be, for example, `com.microsoft.
 ### Testing
 For testing, get [Jsonnet](https://jsonnet.org) (I use the [C++ version](https://github.com/google/jsonnet) personally, but a [Go version](https://github.com/google/go-jsonnet) is also available), render the json file locally (`jsonnet -- ./jsonnet/windows_shortcuts.jsonnet >./json/windows_shortcuts.json`) and test it in Karabiner Elements to ensure your changes work how you think they should work.
 
-Once your testing is done, use the following command to ensure your changes are syntactically valid jsonnet and that they are formatted:
-
-```shell
-jsonnet -- ./jsonnet/windows_shortcuts.jsonnet >/dev/null && \
-  jsonnetfmt -i -- ./jsonnet/*.jsonnet ./jsonnet/lib/*.libsonnet && \
-  echo "Checked and formatted!"
-```
-
-If you see "Checked and formatted!" then you should be ready to commit your changes and submit a PR.
+Once your testing is done, you can simply run `make` to ensure your changes are syntactically valid jsonnet and that they are formatted. If you don't get any errors, then you should be ready to commit your changes and submit a PR.
