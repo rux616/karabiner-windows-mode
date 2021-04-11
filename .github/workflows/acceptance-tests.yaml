@@ -11,42 +11,26 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - name: Checkout Base
-      # https://github.com/marketplace/actions/checkout
-      uses: actions/checkout@v2
-      with:
-        ref: ${{ github.event.pull_request.base.repo.full_name }}
-        path: base
-    - name: Checkout Fork
-      # https://github.com/marketplace/actions/checkout
-      uses: actions/checkout@v2
-      with:
-        ref: ${{ github.event.pull_request.head.sha }}
-        path: fork
+      run: git clone --depth 1 ${{ github.event.pull_request.base.repo.html_url }} --branch ${{ github.event.pull_request.base.ref }} base
+    - name: Checkout Head
+      run: git clone --depth 1 ${{ github.event.pull_request.head.repo.html_url }} --branch ${{ github.event.pull_request.head.ref }} head
     - name: Install Jsonnet
       run: sudo apt-get install -y jsonnet
     - name: Test Syntactic Validity
-      run: ./base/.github/render_json.sh ./fork/jsonnet ./fork/json
+      run: ./base/.github/render_json.sh ./head/jsonnet ./head/json
 
   jsonnetfmt:
     name: Jsonnet Formatting
     runs-on: ubuntu-20.04
     steps:
     - name: Checkout Base
-      # https://github.com/marketplace/actions/checkout
-      uses: actions/checkout@v2
-      with:
-        ref: ${{ github.event.pull_request.base.repo.full_name }}
-        path: base
-    - name: Checkout Fork
-      # https://github.com/marketplace/actions/checkout
-      uses: actions/checkout@v2
-      with:
-        ref: ${{ github.event.pull_request.head.sha }}
-        path: fork
+      run: git clone --depth 1 ${{ github.event.pull_request.base.repo.html_url }} --branch ${{ github.event.pull_request.base.ref }} base
+    - name: Checkout Head
+      run: git clone --depth 1 ${{ github.event.pull_request.head.repo.html_url }} --branch ${{ github.event.pull_request.head.ref }} head
     - name: Install Jsonnet
       run: sudo apt-get install -y jsonnet
     - name: Test Jsonnet Formatting
-      run: ./base/.github/jsonnet_format_check.sh ./fork
+      run: ./base/.github/jsonnet_format_check.sh ./head
 
   jsondiff:
     name: Show JSON Diff
@@ -56,22 +40,14 @@ jobs:
     - jsonnetfmt
     steps:
     - name: Checkout Base
-      # https://github.com/marketplace/actions/checkout
-      uses: actions/checkout@v2
-      with:
-        ref: ${{ github.event.pull_request.base.repo.full_name }}
-        path: base
-    - name: Checkout Fork
-      # https://github.com/marketplace/actions/checkout
-      uses: actions/checkout@v2
-      with:
-        ref: ${{ github.event.pull_request.head.sha }}
-        path: fork
+      run: git clone --depth 1 ${{ github.event.pull_request.base.repo.html_url }} --branch ${{ github.event.pull_request.base.ref }} base
+    - name: Checkout Head
+      run: git clone --depth 1 ${{ github.event.pull_request.head.repo.html_url }} --branch ${{ github.event.pull_request.head.ref }} head
     - name: Install Jsonnet
       run: sudo apt-get install -y jsonnet
     - name: Render JSON
-      run: ./base/.github/render_json.sh ./fork/jsonnet ./fork/json
+      run: ./base/.github/render_json.sh ./head/jsonnet ./head/json
     - name: Show JSON Diff
-      run: ./base/.github/json_diff_pr_comment.sh ./fork
+      run: ./base/.github/json_diff_pr_comment.sh ./head
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
