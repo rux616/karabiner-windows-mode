@@ -1,5 +1,5 @@
 # karabiner-windows-mode
-Karabiner-Elements complex ruleset to make using Mac OS more sane by enabling common keyboard functionality used in Linux and Windows. Now powered by [Jsonnet](https://jsonnet.org), allowing the main files that need to be interacted with (`*.jsonnet` and `*.libsonnet`) to be much shorter and far more readable.
+Karabiner-Elements complex ruleset to make using macOS friendlier by enabling common keyboard functionality used in Linux and Windows. Now powered by [Jsonnet](https://jsonnet.org), allowing the main files that need to be interacted with (`*.jsonnet` and `*.libsonnet`) to be much shorter and far more readable.
 
 If you'd like to contribute to this project, please check the [Contributing](#Contributing) section.
 
@@ -25,11 +25,11 @@ Generally Excepted Applications:
 * IDEs
   * GNU Emacs (GUI)
   * JetBrains IntelliJ IDEA CE
-  * JetBrains PyCharm
   * JetBrains PhpStorm
+  * JetBrains PyCharm
   * JetBrains Rider
-  * Sublime Text
   * Microsoft VSCode
+  * Sublime Text
 * Remote Desktops
   * Citrix XenAppViewer
   * Microsoft Remote Desktop Connection

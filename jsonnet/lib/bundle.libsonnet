@@ -5,47 +5,65 @@
 
   // bundle identifiers for hypervisor applications
   hypervisors: [
+    /* Oracle VirtualBox */
     '^org\\.virtualbox\\.app\\.VirtualBoxVM$',
-    '^org\\.vmware\\.fusion$',
+    /* Parallels */
     '^com\\.parallels\\.desktop\\.console$',
+    /* VMWare Fusion */
+    '^org\\.vmware\\.fusion$',
   ],
 
   // bundle identifiers for IDE applications
   ides: [
-    '^com\\.microsoft\\.VSCode$',
-    '^com\\.jetbrains\\.intellij\\.ce$',
-    '^com\\.jetbrains\\.pycharm$',
-    '^com\\.jetbrains\\.PhpStorm$',
-    '^com\\.jetbrains\\.rider$',
-    '^com\\.sublimetext\\.3$',
+    /* GNU Emacs (GUI) */
     '^org\\.gnu\\.emacs$',
+    /* JetBrains IntelliJ */
+    '^com\\.jetbrains\\.intellij\\.ce$',
+    /* JetBrains PhpStorm */
+    '^com\\.jetbrains\\.PhpStorm$',
+    /* JetBrains PyCharm */
+    '^com\\.jetbrains\\.pycharm$',
+    /* JetBrains Rider */
+    '^com\\.jetbrains\\.rider$',
+    /* Microsoft VSCode */
+    '^com\\.microsoft\\.VSCode$',
+    /* Sublime Text */
+    '^com\\.sublimetext\\.3$',
   ],
 
   // bundle identifiers for remote desktop applications
   remoteDesktops: [
-    '^com\\.microsoft\\.rdc\\.macos$',
+    /* Citrix XenAppViewer */
     '^com\\.citrix\\.XenAppViewer$',
+    /* Microsoft Remote Desktop Connection */
+    '^com\\.microsoft\\.rdc\\.macos$',
   ],
 
   // bundle identifiers for terminal emulator applications
   terminalEmulators: [
-    '^com\\.apple\\.Terminal$',
-    '^com\\.googlecode\\.iterm2$',
-    '^co\\.zeit\\.hyper$',
+    /* Alacritty */
     '^io\\.alacritty$',
+    /* Hyper */
+    '^co\\.zeit\\.hyper$',
+    /* iTerm2 */
+    '^com\\.googlecode\\.iterm2$',
+    /* Terminal */
+    '^com\\.apple\\.Terminal$',
   ],
 
   // bundle identifiers for web browser applications
   webBrowsers: [
-    '^org\\.mozilla\\.firefox$',
+    /* Google Chrome */
     '^com\\.google\\.chrome$',
+    /* Mozilla Firefox */
+    '^org\\.mozilla\\.firefox$',
   ],
 
   // since this combination is used so much, it's given its own identifier
   standard:
-    $.terminalEmulators +
     $.hypervisors +
     $.ides +
     $.remoteDesktops +
-    [],  // unnecessary, but it allows '$.foo +' for all lines, which makes my OCD happy
+    $.terminalEmulators +
+    [],  // unnecessary, but it allows the '$.foo +'-style for the preceeding lines, which makes my OCD happy
 }
