@@ -6,9 +6,13 @@ printf 'Initializing script\n'
 shopt -s globstar
 set -eo pipefail
 
+# change to working directory
+cd "${1:-.}"
+
 # special header string to use to identify comments
 header="$(printf '<!--%s-->' "$(basename -s .sh -- "$0")")"
 
+# get the PR's API URL to interact with it
 github_pr_api_url="$(jq -r '.pull_request._links.comments.href' <"${GITHUB_EVENT_PATH}")"
 
 

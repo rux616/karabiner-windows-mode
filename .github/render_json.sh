@@ -10,7 +10,7 @@ input_dir="${1:-.}"
 output_dir="${2:-.}"
 
 # render json files
-for input_file in ${input_dir}/*.jsonnet; do
+for input_file in "${input_dir}"/*.jsonnet; do
     output_file="${input_file##*/}"
     output_file="${output_file/%.jsonnet/.json}"
     output_file="${output_dir}/${output_file}"

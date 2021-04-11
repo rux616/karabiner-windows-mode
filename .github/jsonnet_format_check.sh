@@ -5,6 +5,9 @@ set -eo pipefail
 
 error=0
 
+# change to working directory
+cd "${1:-.}"
+
 # test jsonnet and libsonnet files
 for file in ./**/*.{j,lib}sonnet; do
     printf 'jsonnetfmt --test -- "%s"\n' "${file}"
