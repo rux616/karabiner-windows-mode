@@ -10,29 +10,43 @@ jobs:
     name: Jsonnet Syntax
     runs-on: ubuntu-20.04
     steps:
-    - name: Checkout Repo
+    - name: Checkout Base
+      # https://github.com/marketplace/actions/checkout
+      uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.base.repo.full_name }}
+        path: base
+    - name: Checkout Fork
       # https://github.com/marketplace/actions/checkout
       uses: actions/checkout@v2
       with:
         ref: ${{ github.event.pull_request.head.sha }}
+        path: fork
     - name: Install Jsonnet
       run: sudo apt-get install -y jsonnet
     - name: Test Syntactic Validity
-      run: .github/render_json.sh
+      run: ./base/.github/render_json.sh ./fork/jsonnet ./fork/json
 
   jsonnetfmt:
     name: Jsonnet Formatting
     runs-on: ubuntu-20.04
     steps:
-    - name: Checkout Repo
+    - name: Checkout Base
+      # https://github.com/marketplace/actions/checkout
+      uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.base.repo.full_name }}
+        path: base
+    - name: Checkout Fork
       # https://github.com/marketplace/actions/checkout
       uses: actions/checkout@v2
       with:
         ref: ${{ github.event.pull_request.head.sha }}
+        path: fork
     - name: Install Jsonnet
       run: sudo apt-get install -y jsonnet
     - name: Test Jsonnet Formatting
-      run: .github/jsonnet_format_check.sh
+      run: ./base/.github/jsonnet_format_check.sh ./fork
 
   jsondiff:
     name: Show JSON Diff
@@ -41,16 +55,23 @@ jobs:
     - jsonnetsyntax
     - jsonnetfmt
     steps:
-    - name: Checkout Repo
+    - name: Checkout Base
+      # https://github.com/marketplace/actions/checkout
+      uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.base.repo.full_name }}
+        path: base
+    - name: Checkout Fork
       # https://github.com/marketplace/actions/checkout
       uses: actions/checkout@v2
       with:
         ref: ${{ github.event.pull_request.head.sha }}
+        path: fork
     - name: Install Jsonnet
       run: sudo apt-get install -y jsonnet
     - name: Render JSON
-      run: .github/render_json.sh ./jsonnet ./json
+      run: ./base/.github/render_json.sh ./fork/jsonnet ./fork/json
     - name: Show JSON Diff
-      run: .github/json_diff_pr_comment.sh
+      run: ./base/.github/json_diff_pr_comment.sh ./fork
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
