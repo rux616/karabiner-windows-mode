@@ -5,57 +5,57 @@
 
   // bundle identifiers for hypervisor applications
   hypervisors: [
-    /* Oracle VirtualBox */
+    // Oracle VirtualBox
     '^org\\.virtualbox\\.app\\.VirtualBoxVM$',
-    /* Parallels */
+    // Parallels
     '^com\\.parallels\\.desktop\\.console$',
-    /* VMWare Fusion */
+    // VMWare Fusion
     '^org\\.vmware\\.fusion$',
   ],
 
   // bundle identifiers for IDE applications
   ides: [
-    /* GNU Emacs (GUI) */
+    // GNU Emacs (GUI)
     '^org\\.gnu\\.emacs$',
-    /* JetBrains IntelliJ */
+    // JetBrains IntelliJ
     '^com\\.jetbrains\\.intellij\\.ce$',
-    /* JetBrains PhpStorm */
+    // JetBrains PhpStorm
     '^com\\.jetbrains\\.PhpStorm$',
-    /* JetBrains PyCharm */
+    // JetBrains PyCharm
     '^com\\.jetbrains\\.pycharm$',
-    /* JetBrains Rider */
+    // JetBrains Rider
     '^com\\.jetbrains\\.rider$',
-    /* Microsoft VSCode */
+    // Microsoft VSCode
     '^com\\.microsoft\\.VSCode$',
-    /* Sublime Text */
+    // Sublime Text
     '^com\\.sublimetext\\.3$',
   ],
 
   // bundle identifiers for remote desktop applications
   remoteDesktops: [
-    /* Citrix XenAppViewer */
+    // Citrix XenAppViewer
     '^com\\.citrix\\.XenAppViewer$',
-    /* Microsoft Remote Desktop Connection */
+    // Microsoft Remote Desktop Connection
     '^com\\.microsoft\\.rdc\\.macos$',
   ],
 
   // bundle identifiers for terminal emulator applications
   terminalEmulators: [
-    /* Alacritty */
+    // Alacritty
     '^io\\.alacritty$',
-    /* Hyper */
+    // Hyper
     '^co\\.zeit\\.hyper$',
-    /* iTerm2 */
+    // iTerm2
     '^com\\.googlecode\\.iterm2$',
-    /* Terminal */
+    // Terminal
     '^com\\.apple\\.Terminal$',
   ],
 
   // bundle identifiers for web browser applications
   webBrowsers: [
-    /* Google Chrome */
+    // Google Chrome
     '^com\\.google\\.chrome$',
-    /* Mozilla Firefox */
+    // Mozilla Firefox
     '^org\\.mozilla\\.firefox$',
   ],
 
