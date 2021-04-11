@@ -1,6 +1,6 @@
 .SILENT: check format render
 
-all: check format
+default: check format
 
 check:
 	echo "checking..."
@@ -8,7 +8,7 @@ check:
 
 format:
 	echo "formatting..."
-	.github/jsonnet_format_check.sh
+	.github/jsonnet_fmt.sh
 
 render:
 	echo "rendering..."
