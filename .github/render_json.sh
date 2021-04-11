@@ -11,9 +11,16 @@ output_dir="${2:-.}"
 
 # render json files
 for input_file in "${input_dir}"/*.jsonnet; do
-    output_file="${input_file##*/}"
-    output_file="${output_file/%.jsonnet/.json}"
-    output_file="${output_dir}/${output_file}"
+    case ${output_dir} in
+        /dev/null)
+            output_file="${output_dir}"
+            ;;
+        *)
+            output_file="${input_file##*/}"
+            output_file="${output_file/%.jsonnet/.json}"
+            output_file="${output_dir}/${output_file}"
+            ;;
+    esac
 
     printf 'jsonnet -- "%s" >"%s"\n' "${input_file}" "${output_file}"
     jsonnet -- "${input_file}" >"${output_file}" || error=1
