@@ -8,17 +8,17 @@
                   {
                      "bundle_identifiers": [
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -53,22 +53,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -104,17 +104,17 @@
                   {
                      "bundle_identifiers": [
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -149,22 +149,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -199,22 +199,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -246,22 +246,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -296,22 +296,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -347,22 +347,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -399,22 +399,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -446,22 +446,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -496,22 +496,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -547,22 +547,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -599,22 +599,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -649,22 +649,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -701,22 +701,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -751,22 +751,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -803,22 +803,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -853,22 +853,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -903,22 +903,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -953,22 +953,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1021,22 +1021,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1071,22 +1071,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1121,22 +1121,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1171,10 +1171,10 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
+                        "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$"
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_if"
                   }
@@ -1210,22 +1210,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1260,22 +1260,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1416,22 +1416,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1466,22 +1466,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1516,22 +1516,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1566,22 +1566,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1616,22 +1616,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1666,22 +1666,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1716,22 +1716,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1766,22 +1766,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1816,10 +1816,10 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
+                        "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$"
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_if"
                   }
@@ -1855,22 +1855,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1905,22 +1905,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1955,22 +1955,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -2005,22 +2005,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -2056,17 +2056,17 @@
                   {
                      "bundle_identifiers": [
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -2101,22 +2101,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -2151,22 +2151,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -2199,22 +2199,22 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^co\\.zeit\\.hyper$",
-                        "^io\\.alacritty$",
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -2247,17 +2247,17 @@
                   {
                      "bundle_identifiers": [
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^org\\.vmware\\.fusion$",
                         "^com\\.parallels\\.desktop\\.console$",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.jetbrains\\.intellij\\.ce$",
-                        "^com\\.jetbrains\\.pycharm$",
-                        "^com\\.jetbrains\\.PhpStorm$",
-                        "^com\\.jetbrains\\.rider$",
-                        "^com\\.sublimetext\\.3$",
+                        "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.citrix\\.XenAppViewer$"
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$"
                      ],
                      "type": "frontmost_application_unless"
                   }
