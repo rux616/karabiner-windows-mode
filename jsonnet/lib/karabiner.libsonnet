@@ -90,6 +90,7 @@
     type: 'frontmost_application_' + type,
     bundle_identifiers: bundles,
   },
+
   // runDockedApp
   //
   // number (string, required)
