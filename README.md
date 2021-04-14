@@ -96,6 +96,15 @@ Generally Excepted Applications:
 | X | Ctrl | X | Command |  |
 | Y | Ctrl | Y | Command |  |
 | Z | Ctrl | Z | Command |  |
+| 1 | Command | (Shell Command) | | Launches or switches to Finder (pinned to first position in dock by system) |
+| 2 | Command | (Shell Command) | | Launches or switches to the app pinned to the second position in the dock |
+| 3 | Command | (Shell Command) | | Launches or switches to the app pinned to the third position in the dock |
+| 4 | Command | (Shell Command) | | Launches or switches to the app pinned to the fourth position in the dock |
+| 5 | Command | (Shell Command) | | Launches or switches to the app pinned to the fifth position in the dock |
+| 6 | Command | (Shell Command) | | Launches or switches to the app pinned to the sixth position in the dock |
+| 7 | Command | (Shell Command) | | Launches or switches to the app pinned to the seventh position in the dock |
+| 8 | Command | (Shell Command) | | Launches or switches to the app pinned to the eighth position in the dock |
+| 9 | Command | (Shell Command) | | Launches or switches to the app pinned to the ninth position in the dock |
 
 ### Punctuation Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
@@ -121,7 +130,7 @@ Generally Excepted Applications:
 - [@from-nibly](https://github.com/from-nibly) for adding VMware Fusion to list of exceptions
 - [@andormarkus](https://github.com/andormarkus) for adding JetBrains PyCharm to list of exceptions
 - [@amateescu](https://github.com/amateescu) for adding JetBrains PhpStorm to list of exceptions
-- [@vidurb](https://github.com/vidurb) for adding GNU Emacs to list of exceptions
+- [@vidurb](https://github.com/vidurb) for adding GNU Emacs to list of exceptions, and the Cmd+<Number> shortcuts
 - [@jkluch](https://github.com/jkluch) for adding Microsoft RDC to list of exceptions
 - [@csmager](https://github.com/csmager) for adding Parallels and JetBrains Rider to list of exceptions
 

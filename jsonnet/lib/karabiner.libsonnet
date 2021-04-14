@@ -90,4 +90,17 @@
     type: 'frontmost_application_' + type,
     bundle_identifiers: bundles,
   },
+
+  // runDockedApp
+  //
+  // number (string, required)
+  //   the number of the docked app to run (zero-indexed)
+  //   note that the list of apps does not include Finder, which is permanently
+  //   pinned to the dock as the first item
+  runDockedApp(number):: {
+    to_type: 'to',
+    output: {
+      shell_command: "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:" + number + ":tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)",
+    },
+  },
 }
