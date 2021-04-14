@@ -17,8 +17,11 @@ github_pr_api_url="$(jq -r '.pull_request._links.comments.href' <"${GITHUB_EVENT
 
 
 printf 'Initializing git\n'
-# fetch master branch for diffs
-git fetch -q --no-tags --prune --depth=1 origin +refs/heads/master:refs/remotes/origin/master
+# add a remote for the upstream
+git remote add upstream "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}"
+
+# fetch upstream/master branch for diffs
+git fetch -q --no-tags --prune --depth=1 upstream +refs/heads/master:refs/remotes/upstream/master
 
 # `git diff` ignores untracked files, so make a dummy commit with all json files as a workaround
 git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
@@ -29,10 +32,10 @@ git commit --allow-empty -qm 'dummy commit message'
 
 printf 'Analyzing changes\n'
 # get a list of all the changed json files
-readarray -d '' changed_files < <(git diff --name-only -z origin/master -- ./**/*.json)
+readarray -d '' changed_files < <(git diff --name-only -z upstream/master -- ./**/*.json)
 
 # get a summary of changes
-summary="$(git diff --compact-summary origin/master -- ./**/*.json)"
+summary="$(git diff --compact-summary upstream/master -- ./**/*.json)"
 
 # initialize the body of the comment with some boilerplate text
 # shellcheck disable=SC2016 # intentional
@@ -46,7 +49,7 @@ fi
 # go through each file and add its diff to the body
 for file in "${changed_files[@]}"; do
     # shellcheck disable=SC2016 # intentional
-    body+="$(printf '\n<details>\n<summary>%s</summary>\n\n```diff\n%s\n```\n</details>\n' "${file}" "$(git diff origin/master -- "${file}")")"
+    body+="$(printf '\n<details>\n<summary>%s</summary>\n\n```diff\n%s\n```\n</details>\n' "${file}" "$(git diff upstream/master -- "${file}")")"
 done
 
 
