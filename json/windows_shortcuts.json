@@ -2049,6 +2049,429 @@
          ]
       },
       {
+         "description": "1 (Cmd) [Open Finder]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                        "^com\\.parallels\\.desktop\\.console$",
+                        "^org\\.vmware\\.fusion$",
+                        "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$",
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
+                     ],
+                     "type": "frontmost_application_unless"
+                  }
+               ],
+               "from": {
+                  "key_code": "1",
+                  "modifiers": {
+                     "mandatory": [
+                        "command"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "shell_command": "open -b com.apple.finder"
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "2 (Cmd) [Open first pinned Dock app]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                        "^com\\.parallels\\.desktop\\.console$",
+                        "^org\\.vmware\\.fusion$",
+                        "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$",
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
+                     ],
+                     "type": "frontmost_application_unless"
+                  }
+               ],
+               "from": {
+                  "key_code": "2",
+                  "modifiers": {
+                     "mandatory": [
+                        "command"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:0:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "3 (Cmd) [Open second pinned Dock app]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                        "^com\\.parallels\\.desktop\\.console$",
+                        "^org\\.vmware\\.fusion$",
+                        "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$",
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
+                     ],
+                     "type": "frontmost_application_unless"
+                  }
+               ],
+               "from": {
+                  "key_code": "3",
+                  "modifiers": {
+                     "mandatory": [
+                        "command"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:1:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "4 (Cmd) [Open third pinned Dock app]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                        "^com\\.parallels\\.desktop\\.console$",
+                        "^org\\.vmware\\.fusion$",
+                        "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$",
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
+                     ],
+                     "type": "frontmost_application_unless"
+                  }
+               ],
+               "from": {
+                  "key_code": "4",
+                  "modifiers": {
+                     "mandatory": [
+                        "command"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:2:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "5 (Cmd) [Open fourth pinned Dock app]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                        "^com\\.parallels\\.desktop\\.console$",
+                        "^org\\.vmware\\.fusion$",
+                        "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$",
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
+                     ],
+                     "type": "frontmost_application_unless"
+                  }
+               ],
+               "from": {
+                  "key_code": "5",
+                  "modifiers": {
+                     "mandatory": [
+                        "command"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:3:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "6 (Cmd) [Open fifth pinned Dock app]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                        "^com\\.parallels\\.desktop\\.console$",
+                        "^org\\.vmware\\.fusion$",
+                        "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$",
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
+                     ],
+                     "type": "frontmost_application_unless"
+                  }
+               ],
+               "from": {
+                  "key_code": "6",
+                  "modifiers": {
+                     "mandatory": [
+                        "command"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:4:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "7 (Cmd) [Open sixth pinned Dock app]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                        "^com\\.parallels\\.desktop\\.console$",
+                        "^org\\.vmware\\.fusion$",
+                        "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$",
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
+                     ],
+                     "type": "frontmost_application_unless"
+                  }
+               ],
+               "from": {
+                  "key_code": "7",
+                  "modifiers": {
+                     "mandatory": [
+                        "command"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:5:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "8 (Cmd) [Open eighth pinned Dock app]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                        "^com\\.parallels\\.desktop\\.console$",
+                        "^org\\.vmware\\.fusion$",
+                        "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$",
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
+                     ],
+                     "type": "frontmost_application_unless"
+                  }
+               ],
+               "from": {
+                  "key_code": "8",
+                  "modifiers": {
+                     "mandatory": [
+                        "command"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:6:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "9 (Cmd) [Open ninth pinned Dock app]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                        "^com\\.parallels\\.desktop\\.console$",
+                        "^org\\.vmware\\.fusion$",
+                        "^org\\.gnu\\.emacs$",
+                        "^com\\.jetbrains\\.intellij\\.ce$",
+                        "^com\\.jetbrains\\.PhpStorm$",
+                        "^com\\.jetbrains\\.pycharm$",
+                        "^com\\.jetbrains\\.rider$",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$",
+                        "^io\\.alacritty$",
+                        "^co\\.zeit\\.hyper$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^com\\.apple\\.Terminal$"
+                     ],
+                     "type": "frontmost_application_unless"
+                  }
+               ],
+               "from": {
+                  "key_code": "9",
+                  "modifiers": {
+                     "mandatory": [
+                        "command"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:7:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
          "description": "/ (Ctrl) [+Terminal Emulators]",
          "manipulators": [
             {
