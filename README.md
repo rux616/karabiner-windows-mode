@@ -133,7 +133,7 @@ Generally Excepted Applications:
 - [@vidurb](https://github.com/vidurb) for adding GNU Emacs to list of exceptions, and the Cmd+<Number> shortcuts
 - [@jkluch](https://github.com/jkluch) for adding Microsoft RDC to list of exceptions
 - [@csmager](https://github.com/csmager) for adding Parallels and JetBrains Rider to list of exceptions
-- [@kingamajick](https://github.com/kingamajick) for adding WezTerm to the list of exceptions
+- [@kingamajick](https://github.com/kingamajick) for adding WezTerm and Chrome Remote Desktop (enabling support for file_paths to identify applications) to the list of exceptions
 
 ## Links
 - Karabiner-Elements [(Homepage)](https://pqrs.org/osx/karabiner/) [(GitHub)](https://github.com/tekezo/Karabiner-Elements)

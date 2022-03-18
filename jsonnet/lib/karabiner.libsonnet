@@ -87,9 +87,14 @@
   //
   // bundles (array, required)
   //   bundle identifiers of applications
-  condition(type, bundles):: {
+  // file_paths (array, option)
+  //   file path identifiers of applications
+  condition(type, bundles, file_paths=null):: {
     type: 'frontmost_application_' + type,
     bundle_identifiers: bundles,
+    [if file_paths != null then 'file_paths']: [
+      file_paths,
+    ],
   },
 
   // runDockedApp
