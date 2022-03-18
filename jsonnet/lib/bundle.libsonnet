@@ -43,6 +43,8 @@
     '^com\\.googlecode\\.iterm2$',
     // Terminal
     '^com\\.apple\\.Terminal$',
+    // WezTerm
+    '^com\\.github\\.wez\\.wezterm$',
   ],
 
   // bundle identifiers for web browser applications
