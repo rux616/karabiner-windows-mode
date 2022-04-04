@@ -6,7 +6,7 @@
   // file path identifiers for remote desktop applications
   remoteDesktops: [
     // Chrome Remote desktop
-    'Chrome Remote Desktop\\.app'
+    'Chrome Remote Desktop\\.app',
   ],
 
   // since this combination is used so much, it's given its own identifier
