@@ -87,7 +87,8 @@
   //
   // bundles (array, required)
   //   bundle identifiers of applications
-  // file_paths (array, option)
+  //
+  // file_paths (array, optional)
   //   file path identifiers of applications
   condition(type, bundles, file_paths=null):: {
     type: 'frontmost_application_' + type,
