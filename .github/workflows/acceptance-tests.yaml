@@ -17,7 +17,7 @@ jobs:
       - name: Install Jsonnet
         run: sudo apt-get install -y jsonnet
       - name: Test Syntactic Validity
-        run: ./base/.github/render_json.sh ./head/jsonnet ./head/json
+        run: ./base/.github/scripts/render_json.sh ./head/jsonnet ./head/json
 
   jsonnet_fmt:
     name: Jsonnet Formatting
@@ -30,7 +30,7 @@ jobs:
       - name: Install Jsonnet
         run: sudo apt-get install -y jsonnet
       - name: Test Jsonnet Formatting
-        run: ./base/.github/jsonnet_format_check.sh ./head
+        run: ./base/.github/scripts/jsonnet_format_check.sh ./head
 
   detect_changed_json:
     name: Detect Changed JSON Files
@@ -58,8 +58,8 @@ jobs:
       - name: Install Jsonnet
         run: sudo apt-get install -y jsonnet
       - name: Render JSON
-        run: ./base/.github/render_json.sh ./head/jsonnet ./head/json
+        run: ./base/.github/scripts/render_json.sh ./head/jsonnet ./head/json
       - name: Show JSON Diff
-        run: ./base/.github/json_diff_pr_comment.sh ./head
+        run: ./base/.github/scripts/json_diff_pr_comment.sh ./head
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
