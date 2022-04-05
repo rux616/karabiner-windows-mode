@@ -11,7 +11,7 @@ local k = import 'lib/karabiner.libsonnet';
 //------//
 
 {
-  title: 'Windows Shortcuts',
+  title: 'Windows Shirtcots',
   rules: [
     // Navigation Keys
     k.rule('Insert (Ctrl) [+Terminal Emulators]',

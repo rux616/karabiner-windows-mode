@@ -1,7 +1,7 @@
 {
    "rules": [
       {
-         "description": "Insert (Ctrl) [+Terminal Emulators]",
+         "description": "Insert (Ctrl) [+Terminal Emulators]FOO",
          "manipulators": [
             {
                "conditions": [
