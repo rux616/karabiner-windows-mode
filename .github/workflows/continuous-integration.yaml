@@ -6,14 +6,15 @@ on:
       - master
 
 jobs:
-  renderjson:
+  render_json:
     name: Render JSON
     runs-on: ubuntu-20.04
-
     steps:
       - name: Checkout Repo
         # https://github.com/marketplace/actions/checkout
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.CHAOTICCOGNITIONS_BOT_PAT }}
       - name: Install Jsonnet
         run: sudo apt-get install -y jsonnet
       - name: Render JSON
@@ -23,3 +24,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "[AUTO] Render JSON"
+          commit_user_name: Chaotic Cognitions Bot
+          commit_user_email: chaoticcognitions-bot@chaoticcognitions.io

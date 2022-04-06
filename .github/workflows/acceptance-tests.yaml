@@ -62,4 +62,4 @@ jobs:
       - name: Show JSON Diff
         run: ./base/.github/scripts/json_diff_pr_comment.sh ./head
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CHAOTICCOGNITIONS_BOT_PAT }}
