@@ -17,14 +17,8 @@
   ides: [
     // GNU Emacs (GUI)
     '^org\\.gnu\\.emacs$',
-    // JetBrains IntelliJ
-    '^com\\.jetbrains\\.intellij\\.ce$',
-    // JetBrains PhpStorm
-    '^com\\.jetbrains\\.PhpStorm$',
-    // JetBrains PyCharm
-    '^com\\.jetbrains\\.pycharm$',
-    // JetBrains Rider
-    '^com\\.jetbrains\\.rider$',
+    // JetBrains tools
+    '^com\\.jetbrains',
     // Microsoft VSCode
     '^com\\.microsoft\\.VSCode$',
     // Sublime Text

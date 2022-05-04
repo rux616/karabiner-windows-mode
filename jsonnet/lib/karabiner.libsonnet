@@ -21,9 +21,10 @@
     manipulators: [
       {
         from: input,
-        [output.to_type]: [
-          output.output,
-        ],
+      } + {
+        [o.to_type]: [o.output]
+        for o in if std.isArray(output) then output else [output] + []
+      } + {
         [if condition != null then 'conditions']: [
           condition,
         ],
@@ -60,10 +61,10 @@
   //
   // output_type (string, optional)
   //   type of 'to' object; should normally be left alone
-  outputKey(key, modifiers=null, output_type='to'):: {
+  outputKey(key, modifiers=null, output_type='to', key_code='key_code',):: {
     to_type: output_type,
     output: {
-      key_code: key,
+      [key_code]: key,
       [if modifiers != null then 'modifiers']: modifiers,
     },
   },
