@@ -30,7 +30,7 @@
         ],
         type: 'basic',
       },
-    ]
+    ],
   },
 
   // input
