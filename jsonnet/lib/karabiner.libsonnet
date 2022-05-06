@@ -23,14 +23,14 @@
         from: input,
       } + {
         [o.to_type]: [o.output]
-        for o in if std.isArray(output) then output else [output] + []
+        for o in if std.isArray(output) then output else [output]
       } + {
         [if condition != null then 'conditions']: [
           condition,
         ],
         type: 'basic',
       },
-    ],
+    ]
   },
 
   // input
