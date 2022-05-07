@@ -31,6 +31,7 @@ Generally Excepted Applications:
   * Microsoft VSCode
   * Sublime Text
 * Remote Desktops
+  * Chrome Remote Desktop (app version, not in-browser version)
   * Citrix XenAppViewer
   * Microsoft Remote Desktop Connection
 * Terminal Emulators
@@ -38,6 +39,7 @@ Generally Excepted Applications:
   * Hyper
   * iTerm2
   * Terminal
+  * WezTerm
 
 ### Navigation Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
