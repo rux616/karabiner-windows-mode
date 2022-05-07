@@ -31,6 +31,7 @@ Generally Excepted Applications:
   * Microsoft VSCode
   * Sublime Text
 * Remote Desktops
+  * Chrome Remote Desktop (app version, not in-browser version)
   * Citrix XenAppViewer
   * Microsoft Remote Desktop Connection
 * Terminal Emulators
@@ -38,6 +39,7 @@ Generally Excepted Applications:
   * Hyper
   * iTerm2
   * Terminal
+  * WezTerm
 
 ### Navigation Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
@@ -133,6 +135,7 @@ Generally Excepted Applications:
 - [@vidurb](https://github.com/vidurb) for adding GNU Emacs to list of exceptions, and the Cmd+<Number> shortcuts
 - [@jkluch](https://github.com/jkluch) for adding Microsoft RDC to list of exceptions
 - [@csmager](https://github.com/csmager) for adding Parallels and JetBrains Rider to list of exceptions
+- [@kingamajick](https://github.com/kingamajick) for adding WezTerm and Chrome Remote Desktop (enabling support for file_paths to identify applications) to the list of exceptions
 
 ## Links
 - Karabiner-Elements [(Homepage)](https://pqrs.org/osx/karabiner/) [(GitHub)](https://github.com/tekezo/Karabiner-Elements)
