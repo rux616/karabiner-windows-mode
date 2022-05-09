@@ -24,10 +24,7 @@ Generally Excepted Applications:
   * VMware Fusion
 * IDEs
   * GNU Emacs (GUI)
-  * JetBrains IntelliJ IDEA CE
-  * JetBrains PhpStorm
-  * JetBrains PyCharm
-  * JetBrains Rider
+  * JetBrains (All)
   * Microsoft VSCode
   * Sublime Text
 * Remote Desktops
@@ -69,8 +66,10 @@ Generally Excepted Applications:
 | Enter | Ctrl | Enter | Command |  |
 | Enter | Ctrl+Shift | Enter | Command+Shift |  |
 
-[//]: # (### Modifier Keys)
-[//]: # (| Win |  | Launchpad |  | Works in Terminal/iTerm2. |)
+### Modifier Keys
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
+|-|-|-|-|-|
+| Win |  | Spotlight |  | Works in Excepted Applications. |
 
 ### Alphanumeric Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
@@ -98,15 +97,15 @@ Generally Excepted Applications:
 | X | Ctrl | X | Command |  |
 | Y | Ctrl | Y | Command |  |
 | Z | Ctrl | Z | Command |  |
-| 1 | Command | (Shell Command) | | Launches or switches to Finder (pinned to first position in dock by system) |
-| 2 | Command | (Shell Command) | | Launches or switches to the app pinned to the second position in the dock |
-| 3 | Command | (Shell Command) | | Launches or switches to the app pinned to the third position in the dock |
-| 4 | Command | (Shell Command) | | Launches or switches to the app pinned to the fourth position in the dock |
-| 5 | Command | (Shell Command) | | Launches or switches to the app pinned to the fifth position in the dock |
-| 6 | Command | (Shell Command) | | Launches or switches to the app pinned to the sixth position in the dock |
-| 7 | Command | (Shell Command) | | Launches or switches to the app pinned to the seventh position in the dock |
-| 8 | Command | (Shell Command) | | Launches or switches to the app pinned to the eighth position in the dock |
-| 9 | Command | (Shell Command) | | Launches or switches to the app pinned to the ninth position in the dock |
+| 1 | Command | (Shell Command) | | Launches or switches to Finder (pinned to first position in dock by system). |
+| 2 | Command | (Shell Command) | | Launches or switches to the app pinned to the second position in the dock. |
+| 3 | Command | (Shell Command) | | Launches or switches to the app pinned to the third position in the dock. |
+| 4 | Command | (Shell Command) | | Launches or switches to the app pinned to the fourth position in the dock. |
+| 5 | Command | (Shell Command) | | Launches or switches to the app pinned to the fifth position in the dock. |
+| 6 | Command | (Shell Command) | | Launches or switches to the app pinned to the sixth position in the dock. |
+| 7 | Command | (Shell Command) | | Launches or switches to the app pinned to the seventh position in the dock. |
+| 8 | Command | (Shell Command) | | Launches or switches to the app pinned to the eighth position in the dock. |
+| 9 | Command | (Shell Command) | | Launches or switches to the app pinned to the ninth position in the dock. |
 
 ### Punctuation Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
@@ -136,6 +135,7 @@ Generally Excepted Applications:
 - [@jkluch](https://github.com/jkluch) for adding Microsoft RDC to list of exceptions
 - [@csmager](https://github.com/csmager) for adding Parallels and JetBrains Rider to list of exceptions
 - [@kingamajick](https://github.com/kingamajick) for adding WezTerm and Chrome Remote Desktop (enabling support for file_paths to identify applications) to the list of exceptions
+- [@raxigan](https://github.com/raxigan) for simplifying JetBrains IDE listing and adding the Win [Spotlight] shortcut
 
 ## Links
 - Karabiner-Elements [(Homepage)](https://pqrs.org/osx/karabiner/) [(GitHub)](https://github.com/tekezo/Karabiner-Elements)
@@ -148,7 +148,7 @@ Pull requests (PRs) and issues are welcome! But first, some notes:
 - Remember to give yourself credit in [Credits](#Credits) section
 - Don't change any `*.json` files! They are automatically rendered and your changes will be overridden.
 
-Please refrain from making changes directly to any `*.json` files (all JSON files will be rendered automatically as necessary on a push to the master branch) and instead make your additions in the `*.jsonnet` and `*.libsonnet` files and submit a PR. A comment will automatically be added to the PR showing any JSON changes that will result (still working the kinks out of this feature).
+Again, please refrain from making changes directly to any `*.json` files (all JSON files will be rendered automatically as necessary on a push to the master branch) and instead make your additions in the `*.jsonnet` and `*.libsonnet` files and submit a PR. A comment will automatically be added to the PR showing any JSON changes that will result.
 
 ### Adding Exceptions
 When adding exceptions, you will need the applications "bundle identifier". To get this, you can use the following AppleScript ([SuperUser thread](https://superuser.com/q/346369)):
