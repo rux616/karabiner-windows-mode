@@ -11,7 +11,7 @@
   // input (object, required)
   //   input object for a rule; use input()
   //
-  // output (object, required)
+  // output (object or array, required)
   //   output object for a rule; use outputKey() or outputShell()
   //
   // condition (object, optional)
@@ -61,7 +61,10 @@
   //
   // output_type (string, optional)
   //   type of 'to' object; should normally be left alone
-  outputKey(key, modifiers=null, output_type='to', key_code='key_code',):: {
+  //
+  // key_code (string, optional)
+  //   type of output key code; change the default value for non-typical keys, e.g. media keys
+  outputKey(key, modifiers=null, output_type='to', key_code='key_code'):: {
     to_type: output_type,
     output: {
       [key_code]: key,
