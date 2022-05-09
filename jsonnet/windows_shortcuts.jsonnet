@@ -97,9 +97,12 @@ local k = import 'lib/karabiner.libsonnet';
            k.outputKey('return_or_enter', ['command', 'shift']),
            k.condition('unless', bundle.standard, file_paths.standard)),
     // Modifier Keys
-    k.rule('Win',
-           k.input('command', key_is_modifier=true),
-           k.outputKey('launchpad', output_type='to_if_alone')),
+    k.rule('Win [Open Spotlight]',
+           k.input('left_command', key_is_modifier=true),
+           [
+             k.outputKey('left_command', output_type='to'),
+             k.outputKey('spotlight', output_type='to_if_alone', key_code='apple_vendor_keyboard_key_code'),
+           ]),
     // Alphanumeric Keys
     k.rule('A (Ctrl)',
            k.input('a', ['control']),
