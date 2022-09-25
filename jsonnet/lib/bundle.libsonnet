@@ -23,6 +23,8 @@
     '^com\\.microsoft\\.VSCode$',
     // Sublime Text
     '^com\\.sublimetext\\.3$',
+    // Kitty
+    '^net\\.kovidgoyal\\.kitty$',
   ],
 
   // bundle identifiers for remote desktop applications

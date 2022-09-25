@@ -35,6 +35,7 @@ Generally Excepted Applications:
   * Alacritty
   * Hyper
   * iTerm2
+  * Kitty
   * Terminal
   * WezTerm
 
