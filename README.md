@@ -81,9 +81,9 @@ Generally Excepted Applications:
 | C | Ctrl+Shift | C | Command | Only applies to Terminal Emulators. |
 | F | Ctrl | F | Command |  |
 | I | Ctrl | I | Command |  |
-| L | Win | (Shell Command) |  | Use only 1 Win+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`. Works in Excepted Applications. |
-| L | Win | Power | Control+Shift | Use only 1 Win+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. Works in Excepted Applications. |
-| L | Alt+Ctrl | (Shell Command) |  | Use only 1 Alt+Ctrl+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`. Works in Excepted Applications. |
+| L | Win | Q | Control+Command | Use only 1 Win+L shortcut. Invokes Lock Screen. Works in Excepted Applications. |
+| L | Win | Power | Control+Shift | Use only 1 Win+L shortcut. Invokes Sleep. Note that the screen doesn't always fully lock right away. Works in Excepted Applications. |
+| L | Alt+Ctrl | Q | Control+Command | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Works in Excepted Applications. |
 | L | Alt+Ctrl | Power | Control+Shift | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. Works in Excepted Applications. |
 | N | Ctrl | N | Command |  |
 | O | Ctrl | O | Command |  |
