@@ -1358,7 +1358,7 @@
          ]
       },
       {
-         "description": "L (Win) [Lock Screen]",
+         "description": "L (Win) [Login Window]",
          "manipulators": [
             {
                "from": {
@@ -1374,11 +1374,7 @@
                },
                "to": [
                   {
-                     "key_code": "q",
-                     "modifiers": [
-                        "control",
-                        "command"
-                     ]
+                     "shell_command": "/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -suspend"
                   }
                ],
                "type": "basic"
@@ -1386,7 +1382,7 @@
          ]
       },
       {
-         "description": "L (Win) [Sleep]",
+         "description": "L (Win) [Lock Screen]",
          "manipulators": [
             {
                "from": {
@@ -1414,7 +1410,7 @@
          ]
       },
       {
-         "description": "L (Alt+Ctrl) [Lock Screen]",
+         "description": "L (Alt+Ctrl) [Login Window]",
          "manipulators": [
             {
                "from": {
@@ -1431,11 +1427,7 @@
                },
                "to": [
                   {
-                     "key_code": "q",
-                     "modifiers": [
-                        "control",
-                        "command"
-                     ]
+                     "shell_command": "/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -suspend"
                   }
                ],
                "type": "basic"
@@ -1443,7 +1435,7 @@
          ]
       },
       {
-         "description": "L (Alt+Ctrl) [Sleep]",
+         "description": "L (Alt+Ctrl) [Lock Screen]",
          "manipulators": [
             {
                "from": {
