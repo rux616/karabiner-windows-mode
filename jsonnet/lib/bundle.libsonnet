@@ -17,6 +17,7 @@
   ides: [
     // GNU Emacs (GUI)
     '^org\\.gnu\\.emacs$',
+    '^org\\.gnu\\.Emacs$',
     // JetBrains tools
     '^com\\.jetbrains',
     // Microsoft VSCode
