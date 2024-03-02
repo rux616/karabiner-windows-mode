@@ -53,8 +53,14 @@
   webBrowsers: [
     // Google Chrome
     '^com\\.google\\.chrome$',
+    '^com\\.google\\.Chrome$',
     // Mozilla Firefox
     '^org\\.mozilla\\.firefox$',
+    '^org\\.mozilla\\.nightly$',
+    // Brave Browser
+    '^com\\.brave\\.Browser$',
+    // Safari
+    '^com\\.apple\\.Safari$',
   ],
 
   // since this combination is used so much, it's given its own identifier
