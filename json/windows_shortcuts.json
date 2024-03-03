@@ -2764,6 +2764,48 @@
          ]
       },
       {
+         "description": "Tab (Alt) [+IDEs and Terminal Emulators]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                        "^com\\.parallels\\.desktop\\.console$",
+                        "^org\\.vmware\\.fusion$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$"
+                     ],
+                     "file_paths": [
+                        "Chrome Remote Desktop\\.app"
+                     ],
+                     "type": "frontmost_application_unless"
+                  }
+               ],
+               "from": {
+                  "key_code": "tab",
+                  "modifiers": {
+                     "mandatory": [
+                        "option"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "tab",
+                     "modifiers": [
+                        "command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
          "description": "F1",
          "manipulators": [
             {
