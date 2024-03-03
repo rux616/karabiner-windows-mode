@@ -113,6 +113,7 @@ Generally Excepted Applications:
 |-|-|-|-|-|
 | / | Ctrl | / | Command | Works in Terminal Emulators. |
 | Space | Ctrl | Space | Command |  |
+| Tab | Alt | Tab | Command | Works in IDEs and Terminal Emulators. |
 
 ### Function Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
@@ -137,6 +138,7 @@ Generally Excepted Applications:
 - [@csmager](https://github.com/csmager) for adding Parallels and JetBrains Rider to list of exceptions
 - [@kingamajick](https://github.com/kingamajick) for adding WezTerm and Chrome Remote Desktop (enabling support for file_paths to identify applications) to the list of exceptions
 - [@raxigan](https://github.com/raxigan) for simplifying JetBrains IDE listing and adding the Win [Spotlight] shortcut
+- [@fab1o](https://github.com/fab1o) for the JSON for Alt+Tab (#14)
 
 ## Links
 - Karabiner-Elements [(Homepage)](https://pqrs.org/osx/karabiner/) [(GitHub)](https://github.com/tekezo/Karabiner-Elements)
