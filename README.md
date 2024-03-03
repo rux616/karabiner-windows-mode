@@ -139,15 +139,15 @@ List of Web Browsers:
 | X | Ctrl | X | Command |  |
 | Y | Ctrl | Y | Command |  |
 | Z | Ctrl | Z | Command |  |
-| 1 | Command | (Shell Command) | | Launches or switches to Finder (pinned to first position in dock by system). |
-| 2 | Command | (Shell Command) | | Launches or switches to the app pinned to the second position in the dock. |
-| 3 | Command | (Shell Command) | | Launches or switches to the app pinned to the third position in the dock. |
-| 4 | Command | (Shell Command) | | Launches or switches to the app pinned to the fourth position in the dock. |
-| 5 | Command | (Shell Command) | | Launches or switches to the app pinned to the fifth position in the dock. |
-| 6 | Command | (Shell Command) | | Launches or switches to the app pinned to the sixth position in the dock. |
-| 7 | Command | (Shell Command) | | Launches or switches to the app pinned to the seventh position in the dock. |
-| 8 | Command | (Shell Command) | | Launches or switches to the app pinned to the eighth position in the dock. |
-| 9 | Command | (Shell Command) | | Launches or switches to the app pinned to the ninth position in the dock. |
+| 1 | Command | (Shell Command) | | Launches or switches to the app pinned to the first position in the dock (always Finder). Works in IDEs and Terminal Emulators. |
+| 2 | Command | (Shell Command) | | Launches or switches to the app pinned to the second position in the dock. Works in Terminal IDEs and Emulators. |
+| 3 | Command | (Shell Command) | | Launches or switches to the app pinned to the third position in the dock. Works in Terminal IDEs and Emulators. |
+| 4 | Command | (Shell Command) | | Launches or switches to the app pinned to the fourth position in the dock. Works in Terminal IDEs and Emulators. |
+| 5 | Command | (Shell Command) | | Launches or switches to the app pinned to the fifth position in the dock. Works in Terminal IDEs and Emulators. |
+| 6 | Command | (Shell Command) | | Launches or switches to the app pinned to the sixth position in the dock. Works in Terminal IDEs and Emulators. |
+| 7 | Command | (Shell Command) | | Launches or switches to the app pinned to the seventh position in the dock. Works in Terminal IDEs and Emulators. |
+| 8 | Command | (Shell Command) | | Launches or switches to the app pinned to the eighth position in the dock. Works in Terminal IDEs and Emulators. |
+| 9 | Command | (Shell Command) | | Launches or switches to the app pinned to the ninth position in the dock. Works in Terminal IDEs and Emulators. |
 
 ([TOC](#table-of-contents))
 
