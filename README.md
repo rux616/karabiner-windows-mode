@@ -25,7 +25,7 @@ If you'd like to contribute to this project, please check the [Contributing](#co
 Copy and paste the following URL into your browser window and Karabiner-Elements *should* ask to install the file:
 
 ```none
-karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/rux616/karabiner-windows-mode/master/json/windows_shortcuts.json
+karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/rux616/karabiner-windows-mode/main/json/windows_shortcuts.json
 ```
 
 ([TOC](#table-of-contents))
@@ -205,7 +205,7 @@ Pull requests (PRs) and issues are welcome! But first, some notes:
 - Remember to give yourself credit in [Credits](#credits) section
 - Don't change any `*.json` files! They are automatically rendered and your changes will be overridden.
 
-Again, please refrain from making changes directly to any `*.json` files (all JSON files will be rendered automatically as necessary on a push to the master branch) and instead make your additions in the `*.jsonnet` and `*.libsonnet` files and submit a PR. A comment will automatically be added to the PR showing any JSON changes that will result.
+Again, please refrain from making changes directly to any `*.json` files (all JSON files will be rendered automatically as necessary on a push to the main branch) and instead make your additions in the `*.jsonnet` and `*.libsonnet` files and submit a PR. A comment will automatically be added to the PR showing any JSON changes that will result.
 
 ([TOC](#table-of-contents))
 

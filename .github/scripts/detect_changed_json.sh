@@ -14,13 +14,13 @@ printf 'Initializing git\n'
 # add a remote for the upstream
 git remote add upstream "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}"
 
-# fetch upstream/master branch for diffs
-git fetch -q --no-tags --prune --depth=1 upstream +refs/heads/master:refs/remotes/upstream/master
+# fetch upstream/main branch for diffs
+git fetch -q --no-tags --prune --depth=1 upstream +refs/heads/main:refs/remotes/upstream/main
 
 
 printf 'Analyzing changes\n'
 # get a list of all the changed json files
-readarray -d '' changed_files < <(git diff --name-only -z upstream/master -- ./**/*.json)
+readarray -d '' changed_files < <(git diff --name-only -z upstream/main -- ./**/*.json)
 
 # make a decision
 if [[ ${#changed_files[@]} -gt 0 ]]; then

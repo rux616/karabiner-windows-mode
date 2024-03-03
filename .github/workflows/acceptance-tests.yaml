@@ -3,7 +3,7 @@ name: Acceptance Tests
 on:
   pull_request_target:
     branches:
-      - master
+      - main
 
 jobs:
   jsonnet_syntax:
