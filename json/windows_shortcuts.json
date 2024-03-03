@@ -2213,7 +2213,7 @@
          ]
       },
       {
-         "description": "1 (Cmd) [Open Finder]",
+         "description": "1 (Cmd) [Open first pinned Dock app (Finder); +IDEs and Terminal Emulators]",
          "manipulators": [
             {
                "conditions": [
@@ -2222,19 +2222,8 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
+                        "^com\\.microsoft\\.rdc\\.macos$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -2263,7 +2252,7 @@
          ]
       },
       {
-         "description": "2 (Cmd) [Open first pinned Dock app]",
+         "description": "2 (Cmd) [Open second pinned Dock app; +IDEs and Terminal Emulators]",
          "manipulators": [
             {
                "conditions": [
@@ -2272,19 +2261,8 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
+                        "^com\\.microsoft\\.rdc\\.macos$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -2313,7 +2291,7 @@
          ]
       },
       {
-         "description": "3 (Cmd) [Open second pinned Dock app]",
+         "description": "3 (Cmd) [Open third pinned Dock app; +IDEs and Terminal Emulators]",
          "manipulators": [
             {
                "conditions": [
@@ -2322,19 +2300,8 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
+                        "^com\\.microsoft\\.rdc\\.macos$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -2363,7 +2330,7 @@
          ]
       },
       {
-         "description": "4 (Cmd) [Open third pinned Dock app]",
+         "description": "4 (Cmd) [Open fourth pinned Dock app; +IDEs and Terminal Emulators]",
          "manipulators": [
             {
                "conditions": [
@@ -2372,19 +2339,8 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
+                        "^com\\.microsoft\\.rdc\\.macos$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -2413,7 +2369,7 @@
          ]
       },
       {
-         "description": "5 (Cmd) [Open fourth pinned Dock app]",
+         "description": "5 (Cmd) [Open fifth pinned Dock app; +IDEs and Terminal Emulators]",
          "manipulators": [
             {
                "conditions": [
@@ -2422,19 +2378,8 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
+                        "^com\\.microsoft\\.rdc\\.macos$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -2463,7 +2408,7 @@
          ]
       },
       {
-         "description": "6 (Cmd) [Open fifth pinned Dock app]",
+         "description": "6 (Cmd) [Open sixth pinned Dock app; +IDEs and Terminal Emulators]",
          "manipulators": [
             {
                "conditions": [
@@ -2472,19 +2417,8 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
+                        "^com\\.microsoft\\.rdc\\.macos$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -2513,7 +2447,7 @@
          ]
       },
       {
-         "description": "7 (Cmd) [Open sixth pinned Dock app]",
+         "description": "7 (Cmd) [Open seventh pinned Dock app; +IDEs and Terminal Emulators]",
          "manipulators": [
             {
                "conditions": [
@@ -2522,19 +2456,8 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
+                        "^com\\.microsoft\\.rdc\\.macos$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -2563,7 +2486,7 @@
          ]
       },
       {
-         "description": "8 (Cmd) [Open eighth pinned Dock app]",
+         "description": "8 (Cmd) [Open eighth pinned Dock app; +IDEs and Terminal Emulators]",
          "manipulators": [
             {
                "conditions": [
@@ -2572,19 +2495,8 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
+                        "^com\\.microsoft\\.rdc\\.macos$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -2613,7 +2525,7 @@
          ]
       },
       {
-         "description": "9 (Cmd) [Open ninth pinned Dock app]",
+         "description": "9 (Cmd) [Open ninth pinned Dock app; +IDEs and Terminal Emulators]",
          "manipulators": [
             {
                "conditions": [
@@ -2622,19 +2534,8 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
+                        "^com\\.microsoft\\.rdc\\.macos$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
