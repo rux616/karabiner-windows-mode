@@ -241,6 +241,10 @@ local k = import 'lib/karabiner.libsonnet';
            k.input('spacebar', ['control']),
            k.outputKey('spacebar', ['command']),
            k.condition('unless', bundle.standard, file_paths.standard)),
+    k.rule('Tab (Alt) [+IDEs and Terminal Emulators]',
+           k.input('tab', ['option']),
+           k.outputKey('tab', ['command']),
+           k.condition('unless', bundle.hypervisors + bundle.remoteDesktops, file_paths.remoteDesktops)),
     // Function Keys
     k.rule('F1',
            k.input('f1'),
