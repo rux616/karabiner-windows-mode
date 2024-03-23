@@ -22,6 +22,8 @@
     '^com\\.jetbrains',
     // Microsoft VSCode
     '^com\\.microsoft\\.VSCode$',
+    // VSCodium - Open Source VSCode
+    '^com\\.vscodium$',
     // Sublime Text
     '^com\\.sublimetext\\.3$',
     // Kitty
