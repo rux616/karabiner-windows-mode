@@ -51,6 +51,7 @@ Generally Excepted Applications:
     - GNU Emacs (GUI)
     - JetBrains (All)
     - Microsoft VSCode
+    - VSCodium
     - Sublime Text
 - Remote Desktops
     - Chrome Remote Desktop (app version, not in-browser version)
