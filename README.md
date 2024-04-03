@@ -121,6 +121,7 @@ List of Web Browsers:
 | C | Left Ctrl | C | Command |  |
 | C | Ctrl+Shift | C | Command | Only applies to Terminal Emulators. |
 | F | Ctrl | F | Command |  |
+| H | Ctrl | H | Command | Only applies to web browsers. |
 | I | Ctrl | I | Command |  |
 | L | Alt+Ctrl | Q | Control+Command | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Works in Excepted Applications. |
 | L | Alt+Ctrl | Power | Control+Shift | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. Works in Excepted Applications. |
@@ -168,6 +169,9 @@ List of Web Browsers:
 | F3 |  | G | Command |  |
 | F4 | Alt | Q | Command | Works in Terminal Emulators. |
 | F4 | Ctrl | W | Command | Only applies to Google Chrome. |
+| F5 |  | R | Command | Only applies to Google Chrome. |
+
+([TOC](#table-of-contents))
 
 
 ## Credits
@@ -188,7 +192,7 @@ List of Web Browsers:
 - [@necojackarc](https://github.com/necojackarc) for fixing Win+L in newer versions of macOS
 - [@edance](https://github.com/edance) for adding an additional Emacs bundle, adding "L (Ctrl) [Web Browsers Only]", and expanding the list of web browsers
 - [@fab1o](https://github.com/fab1o) for the JSON for Alt+Tab (#14)
-- [@simonLeary42](https://github.com/simonLeary42) for adding VSCodium bundle
+- [@simonLeary42](https://github.com/simonLeary42) for adding VSCodium bundle, adding "H (Ctrl) [Web Browsers Only]", and adding "F5 [Only Chrome]"
 
 ([TOC](#table-of-contents))
 
