@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - remove-boilerplate3
 
 jobs:
   renderjson:
