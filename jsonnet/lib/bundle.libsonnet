@@ -65,12 +65,4 @@
     // Safari
     '^com\\.apple\\.Safari$',
   ],
-
-  // since this combination is used so much, it's given its own identifier
-  standard:
-    $.hypervisors +
-    $.ides +
-    $.remoteDesktops +
-    $.terminalEmulators +
-    [],  // unnecessary, but it allows the '$.foo +'-style for the preceeding lines, which makes my OCD happy
 }
