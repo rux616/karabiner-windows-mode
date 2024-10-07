@@ -192,7 +192,7 @@ List of Web Browsers:
 - [@necojackarc](https://github.com/necojackarc) for fixing Win+L in newer versions of macOS
 - [@edance](https://github.com/edance) for adding an additional Emacs bundle, adding "L (Ctrl) [Web Browsers Only]", and expanding the list of web browsers
 - [@fab1o](https://github.com/fab1o) for the JSON for Alt+Tab (#14)
-- [@simonLeary42](https://github.com/simonLeary42) for adding VSCodium bundle, adding "H (Ctrl) [Web Browsers Only]", and adding "F5 [Only Chrome]"
+- [@simonLeary42](https://github.com/simonLeary42) for adding VSCodium bundle, adding "H (Ctrl) [Web Browsers Only]", and adding "F5 [Only Chrome]", renaming some rules, and refactoring
 
 ([TOC](#table-of-contents))
 
