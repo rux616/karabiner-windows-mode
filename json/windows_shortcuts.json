@@ -247,9 +247,9 @@
                },
                "to": [
                   {
-                     "key_code": "left_arrow",
+                     "key_code": "e",
                      "modifiers": [
-                        "command"
+                        "control"
                      ]
                   }
                ],
@@ -463,9 +463,9 @@
                },
                "to": [
                   {
-                     "key_code": "right_arrow",
+                     "key_code": "a",
                      "modifiers": [
-                        "command"
+                        "control"
                      ]
                   }
                ],
