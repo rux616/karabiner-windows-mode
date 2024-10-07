@@ -278,11 +278,11 @@ local unless_remoteDesktop_hypervisor = k.condition(
     k.rule('F4 (Ctrl) [Only Chrome]',
            k.input('f4', ['control']),
            k.outputKey('w', ['command']),
-           k.condition('if', ['^com\\.google\\.Chrome$'])),
+           k.condition('if', ['^com\\.google\\.Chrome$', '^com\\.google\\.chrome$'])),
     k.rule('F5 [Only Chrome]',
            k.input('f5'),
            k.outputKey('r', ['command']),
-           k.condition('if', ['^com\\.google\\.Chrome$'])),
+           k.condition('if', ['^com\\.google\\.Chrome$', '^com\\.google\\.chrome$'])),
     ////////////////////////////////////////////////////////////////////////////////////////////////
     k.rule('Tab (Alt) [+IDEs, Remote Desktops, and Terminal Emulators]',
            k.input('tab', ['option']),
