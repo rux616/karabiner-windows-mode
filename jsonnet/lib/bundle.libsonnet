@@ -40,7 +40,9 @@
 
   // bundle identifiers for terminal emulator applications
   terminalEmulators: [
-    // Alacritty
+    // Alacritty (New)
+    '^com\\.alacritty$',
+    // Alacritty (Old)
     '^io\\.alacritty$',
     // Hyper
     '^co\\.zeit\\.hyper$',
