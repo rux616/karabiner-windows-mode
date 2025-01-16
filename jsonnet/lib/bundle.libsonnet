@@ -52,6 +52,8 @@
     '^com\\.apple\\.Terminal$',
     // WezTerm
     '^com\\.github\\.wez\\.wezterm$',
+    // Ghostty
+    '^com\\.mitchellh\\.ghostty$',
   ],
 
   // bundle identifiers for web browser applications

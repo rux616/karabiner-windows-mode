@@ -64,6 +64,7 @@ Generally Excepted Applications:
     - Kitty
     - Terminal
     - WezTerm
+    - Ghostty
 
 List of Web Browsers:
 - Apple Safari
@@ -194,6 +195,7 @@ List of Web Browsers:
 - [@fab1o](https://github.com/fab1o) for the JSON for Alt+Tab (#14)
 - [@simonLeary42](https://github.com/simonLeary42) for adding VSCodium bundle, adding "H (Ctrl) [Web Browsers Only]", and adding "F5 [Only Chrome]", renaming some rules, fixing priority of home/end rules, and refactoring
 - [@elijaholmos](https://github.com/elijaholmos) for adding in the new Alacritty bundle ID
+- [@jelmansouri](https://github.com/jelmansouri) for adding in Ghostty's bundle ID
 
 ([TOC](#table-of-contents))
 
