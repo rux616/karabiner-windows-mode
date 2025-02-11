@@ -8,7 +8,7 @@ on:
 jobs:
   jsonnet_syntax:
     name: Jsonnet Syntax
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout Base
         run: git clone --depth 1 ${{ github.event.pull_request.base.repo.html_url }} --branch ${{ github.event.pull_request.base.ref }} base
@@ -21,7 +21,7 @@ jobs:
 
   jsonnet_fmt:
     name: Jsonnet Formatting
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout Base
         run: git clone --depth 1 ${{ github.event.pull_request.base.repo.html_url }} --branch ${{ github.event.pull_request.base.ref }} base
@@ -34,7 +34,7 @@ jobs:
 
   detect_changed_json:
     name: Detect Changed JSON Files
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout Base
         run: git clone --depth 1 ${{ github.event.pull_request.base.repo.html_url }} --branch ${{ github.event.pull_request.base.ref }} base
@@ -45,7 +45,7 @@ jobs:
 
   json_diff:
     name: Show JSON Diff
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     needs:
       - jsonnet_syntax
       - jsonnet_fmt

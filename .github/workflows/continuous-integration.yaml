@@ -8,18 +8,18 @@ on:
 jobs:
   renderjson:
     name: Render JSON
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout Repo
         # https://github.com/marketplace/actions/checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Install Jsonnet
         run: sudo apt-get install -y jsonnet
       - name: Render JSON
         run: .github/scripts/render_json.sh ./jsonnet ./json
       - name: Commit Rendered JSON
         # https://github.com/marketplace/actions/git-auto-commit
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "[AUTO] Render JSON"
