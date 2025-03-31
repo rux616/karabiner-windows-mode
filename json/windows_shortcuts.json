@@ -10,6 +10,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -25,7 +26,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -66,6 +68,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -81,7 +84,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -122,6 +126,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -137,7 +142,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -180,6 +186,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -195,7 +202,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -237,6 +245,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -252,7 +261,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -293,6 +303,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -308,7 +319,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -346,6 +358,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -361,7 +374,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -404,6 +418,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -419,7 +434,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -461,6 +477,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -476,7 +493,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -517,6 +535,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -532,7 +551,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -570,6 +590,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -585,7 +606,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -626,6 +648,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -641,7 +664,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -684,6 +708,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -699,7 +724,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -740,6 +766,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -755,7 +782,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -798,6 +826,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -813,7 +842,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -854,6 +884,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -869,7 +900,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -910,6 +942,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -925,7 +958,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -966,6 +1000,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -981,7 +1016,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1024,6 +1060,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1039,7 +1076,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1080,6 +1118,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1095,7 +1134,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1136,6 +1176,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1151,7 +1192,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1192,6 +1234,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1207,7 +1250,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1248,6 +1292,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1263,7 +1308,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1304,6 +1350,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1319,7 +1366,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1360,6 +1408,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1375,7 +1424,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1416,6 +1466,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1431,7 +1482,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1472,6 +1524,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1487,7 +1540,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1528,6 +1582,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1543,7 +1598,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1584,6 +1640,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1599,7 +1656,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1640,6 +1698,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1655,7 +1714,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1696,6 +1756,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1711,7 +1772,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1752,6 +1814,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1767,7 +1830,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1808,6 +1872,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1823,7 +1888,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1864,6 +1930,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1879,7 +1946,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1920,6 +1988,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1935,7 +2004,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1976,6 +2046,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -1991,7 +2062,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -2032,6 +2104,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -2047,7 +2120,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -2086,6 +2160,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -2101,7 +2176,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -2139,6 +2215,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$"
                      ],
@@ -2178,6 +2255,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$"
                      ],
@@ -2217,6 +2295,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$"
                      ],
@@ -2256,6 +2335,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$"
                      ],
@@ -2295,6 +2375,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$"
                      ],
@@ -2334,6 +2415,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$"
                      ],
@@ -2373,6 +2455,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$"
                      ],
@@ -2412,6 +2495,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$"
                      ],
@@ -2451,6 +2535,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$"
                      ],
@@ -2625,6 +2710,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -2674,6 +2760,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -2723,6 +2810,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -2772,6 +2860,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
                         "^com\\.jetbrains",
@@ -2824,7 +2913,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "type": "frontmost_application_if"
                   }
@@ -2866,7 +2956,8 @@
                         "^com\\.googlecode\\.iterm2$",
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^dev\\.warp\\.Warp-Stable$"
                      ],
                      "type": "frontmost_application_if"
                   }
@@ -3054,6 +3145,7 @@
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                         "^com\\.parallels\\.desktop\\.console$",
                         "^org\\.vmware\\.fusion$",
+                        "^com\\.utmapp\\.UTM$",
                         "^com\\.citrix\\.XenAppViewer$",
                         "^com\\.microsoft\\.rdc\\.macos$"
                      ],
