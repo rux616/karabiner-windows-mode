@@ -28,6 +28,8 @@
     '^com\\.sublimetext\\.3$',
     // Kitty
     '^net\\.kovidgoyal\\.kitty$',
+    // Beyond Compare 4 & 5
+    '^com\\.ScooterSoftware',
   ],
 
   // bundle identifiers for remote desktop applications
