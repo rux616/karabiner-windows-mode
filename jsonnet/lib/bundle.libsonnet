@@ -11,6 +11,8 @@
     '^com\\.parallels\\.desktop\\.console$',
     // VMWare Fusion
     '^org\\.vmware\\.fusion$',
+    // UTM
+    '^com\\.utmapp\\.UTM$',
   ],
 
   // bundle identifiers for IDE applications
@@ -56,6 +58,8 @@
     '^com\\.github\\.wez\\.wezterm$',
     // Ghostty
     '^com\\.mitchellh\\.ghostty$',
+    // Warp
+    '^dev\\.warp\\.Warp-Stable$',
   ],
 
   // bundle identifiers for web browser applications
