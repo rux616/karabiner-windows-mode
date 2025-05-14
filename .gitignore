@@ -2,3 +2,5 @@
 test.json
 
 .DS_Store
+.idea
+*.iml
