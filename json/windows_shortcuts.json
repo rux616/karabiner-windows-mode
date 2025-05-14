@@ -2654,6 +2654,35 @@
          ]
       },
       {
+         "description": "S (Win+Shift) [Screenshot Area] [Always]",
+         "manipulators": [
+            {
+               "from": {
+                  "key_code": "s",
+                  "modifiers": {
+                     "mandatory": [
+                        "command",
+                        "shift"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "4",
+                     "modifiers": [
+                        "command",
+                        "shift"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
          "description": "Insert (Ctrl) [+Terminal Emulators]",
          "manipulators": [
             {

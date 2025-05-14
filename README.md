@@ -196,6 +196,7 @@ List of Web Browsers:
 - [@simonLeary42](https://github.com/simonLeary42) for adding VSCodium bundle, adding "H (Ctrl) [Web Browsers Only]", and adding "F5 [Only Chrome]", renaming some rules, fixing priority of home/end rules, and refactoring
 - [@elijaholmos](https://github.com/elijaholmos) for adding in the new Alacritty bundle ID
 - [@jelmansouri](https://github.com/jelmansouri) for adding in Ghostty's bundle ID
+- [@dariuszsmolarek](https://github.com/dariuszsmolarek) for adding Screenshot Area (Win+Shift+S)
 
 ([TOC](#table-of-contents))
 
