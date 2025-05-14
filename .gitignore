@@ -1,2 +1,6 @@
 # Ignore the standard test json
 test.json
+
+.DS_Store
+.idea
+*.iml

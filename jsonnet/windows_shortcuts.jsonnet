@@ -239,6 +239,9 @@ local unless_remoteDesktop_hypervisor = k.condition(
     k.rule('L (Alt+Ctrl) [Sleep] [Always]',
            k.input('l', ['control', 'option']),
            k.outputKey('power', ['control', 'shift'])),
+    k.rule('S (Win+Shift) [Screenshot Area] [Always]',
+           k.input('s', ['command', 'shift']),
+           k.outputKey('4', ['command', 'shift'])),
     ////////////////////////////////////////////////////////////////////////////////////////////////
     k.rule('Insert (Ctrl) [+Terminal Emulators]',
            k.input('insert', ['control']),
