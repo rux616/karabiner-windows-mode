@@ -610,9 +610,7 @@
                      "mandatory": [
                         "control"
                      ],
-                     "optional": [
-                        "any"
-                     ]
+                     "optional": []
                   }
                },
                "to": [
@@ -726,9 +724,7 @@
                      "mandatory": [
                         "control"
                      ],
-                     "optional": [
-                        "any"
-                     ]
+                     "optional": []
                   }
                },
                "to": [
