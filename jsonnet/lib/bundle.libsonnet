@@ -30,6 +30,8 @@
     '^net\\.kovidgoyal\\.kitty$',
     // Beyond Compare 4 & 5
     '^com\\.ScooterSoftware',
+    // Zed
+    '^dev\\.zed\\.Zed$',
   ],
 
   // bundle identifiers for remote desktop applications
