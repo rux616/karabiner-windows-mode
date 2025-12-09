@@ -19,7 +19,7 @@
     '^org\\.gnu\\.emacs$',
     '^org\\.gnu\\.Emacs$',
     // JetBrains tools
-    '^com\\.jetbrains',
+    '^com\\.jetbrains$',
     // Microsoft VSCode
     '^com\\.microsoft\\.VSCode$',
     // VSCodium - Open Source VSCode
