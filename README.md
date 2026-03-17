@@ -50,7 +50,7 @@ Generally Excepted Applications:
 - IDEs
     - GNU Emacs (GUI)
     - JetBrains (All)
-    - Microsoft VSCode
+    - Microsoft VSCode (including Insiders)
     - VSCodium
     - Sublime Text
     - Zed
@@ -198,6 +198,7 @@ List of Web Browsers:
 - [@elijaholmos](https://github.com/elijaholmos) for adding in the new Alacritty bundle ID
 - [@jelmansouri](https://github.com/jelmansouri) for adding in Ghostty's bundle ID
 - [@comigor](https://github.com/comigor) for adding in Zed's bundle ID
+- [@austenstone](https://github.com/austenstone) for broadening VSCode exception to include Insiders and other variants
 
 ([TOC](#table-of-contents))
 

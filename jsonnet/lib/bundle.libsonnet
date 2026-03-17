@@ -20,8 +20,8 @@
     '^org\\.gnu\\.Emacs$',
     // JetBrains tools
     '^com\\.jetbrains',
-    // Microsoft VSCode
-    '^com\\.microsoft\\.VSCode$',
+    // Microsoft VSCode (including Insiders)
+    '^com\\.microsoft\\.VSCode',
     // VSCodium - Open Source VSCode
     '^com\\.vscodium$',
     // Sublime Text
