@@ -6,20 +6,31 @@ on:
       - main
 
 jobs:
-  renderjson:
+  render_json:
     name: Render JSON
     runs-on: ubuntu-24.04
-
+    permissions:
+      contents: write
     steps:
       - name: Checkout Repo
         # https://github.com/marketplace/actions/checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Install Jsonnet
         run: sudo apt-get install -y jsonnet
       - name: Render JSON
         run: .github/scripts/render_json.sh ./jsonnet ./json
-      - name: Commit Rendered JSON
-        # https://github.com/marketplace/actions/git-auto-commit
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "[AUTO] Render JSON"
+      - name: Stage Changes
+        run: git add .
+      - name: Commit and Push Rendered JSON
+        env:
+          COMMIT_USER_NAME: github-actions[bot]
+          COMMIT_USER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          COMMIT_MESSAGE: "[AUTO] Render JSON"
+          COMMIT_AUTHOR: rux616 <5643061+rux616@users.noreply.github.com>
+        run: |
+          if [ -n "$(git diff --staged)" ]; then
+            git -c user.name="${COMMIT_USER_NAME}" -c user.email="${COMMIT_USER_EMAIL}" commit -m "${COMMIT_MESSAGE}" --author="${COMMIT_AUTHOR}"
+            git push
+          else
+            echo "no changes to commit"
+          fi
