@@ -5,15 +5,21 @@ on:
     branches:
       - main
 
+env:
+  REPO_BASE: ${{ github.event.pull_request.base.repo.html_url }}
+  REPO_HEAD: ${{ github.event.pull_request.head.repo.html_url }}
+  BRANCH_BASE: ${{ github.event.pull_request.base.ref }}
+  BRANCH_HEAD: ${{ github.event.pull_request.head.ref }}
+
 jobs:
   jsonnet_syntax:
     name: Jsonnet Syntax
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout Base
-        run: git clone --depth 1 ${{ github.event.pull_request.base.repo.html_url }} --branch ${{ github.event.pull_request.base.ref }} base
+        run: git clone --depth 1 "${REPO_BASE}" --branch "${BRANCH_BASE}" base
       - name: Checkout Head
-        run: git clone --depth 1 ${{ github.event.pull_request.head.repo.html_url }} --branch ${{ github.event.pull_request.head.ref }} head
+        run: git clone --depth 1 "${REPO_HEAD}" --branch "${BRANCH_HEAD}" head
       - name: Install Jsonnet
         run: sudo apt-get install -y jsonnet
       - name: Test Syntactic Validity
@@ -24,9 +30,9 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout Base
-        run: git clone --depth 1 ${{ github.event.pull_request.base.repo.html_url }} --branch ${{ github.event.pull_request.base.ref }} base
+        run: git clone --depth 1 "${REPO_BASE}" --branch "${BRANCH_BASE}" base
       - name: Checkout Head
-        run: git clone --depth 1 ${{ github.event.pull_request.head.repo.html_url }} --branch ${{ github.event.pull_request.head.ref }} head
+        run: git clone --depth 1 "${REPO_HEAD}" --branch "${BRANCH_HEAD}" head
       - name: Install Jsonnet
         run: sudo apt-get install -y jsonnet
       - name: Test Jsonnet Formatting
@@ -37,24 +43,27 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout Base
-        run: git clone --depth 1 ${{ github.event.pull_request.base.repo.html_url }} --branch ${{ github.event.pull_request.base.ref }} base
+        run: git clone --depth 1 "${REPO_BASE}" --branch "${BRANCH_BASE}" base
       - name: Checkout Head
-        run: git clone --depth 1 ${{ github.event.pull_request.head.repo.html_url }} --branch ${{ github.event.pull_request.head.ref }} head
+        run: git clone --depth 1 "${REPO_HEAD}" --branch "${BRANCH_HEAD}" head
       - name: Check for JSON Diff
         run: ./base/.github/scripts/detect_changed_json.sh ./head
 
   json_diff:
     name: Show JSON Diff
     runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      issues: write
     needs:
       - jsonnet_syntax
       - jsonnet_fmt
       - detect_changed_json
     steps:
       - name: Checkout Base
-        run: git clone --depth 1 ${{ github.event.pull_request.base.repo.html_url }} --branch ${{ github.event.pull_request.base.ref }} base
+        run: git clone --depth 1 "${REPO_BASE}" --branch "${BRANCH_BASE}" base
       - name: Checkout Head
-        run: git clone --depth 1 ${{ github.event.pull_request.head.repo.html_url }} --branch ${{ github.event.pull_request.head.ref }} head
+        run: git clone --depth 1 "${REPO_HEAD}" --branch "${BRANCH_HEAD}" head
       - name: Install Jsonnet
         run: sudo apt-get install -y jsonnet
       - name: Render JSON
