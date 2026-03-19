@@ -77,101 +77,107 @@ List of Web Browsers:
 ([TOC](#table-of-contents))
 
 ### Navigation Keys
-| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
-|-|-|-|-|-|
-| Insert | Ctrl | C | Command | Use only 1 Ctrl+Insert shortcut. Works in Terminal Emulators. |
-| Insert | Ctrl | C | Command | Use only 1 Ctrl+Insert shortcut. |
-| Insert | Shift | V | Command | Use only 1 Shift+Insert shortcut. Works in Terminal Emulators. |
-| Insert | Shift | V | Command | Use only 1 Shift+Insert shortcut. |
-| Home |  | Left Arrow | Command |  |
-| Home | Ctrl | Up Arrow | Command |  |
-| Home | Shift | Left Arrow | Command+Shift |  |
-| Home | Ctrl+Shift | Up Arrow | Command+Shift |  |
-| End |  | Right Arrow | Command |  |
-| End | Ctrl | Down Arrow | Command |  |
-| End | Shift | Right Arrow | Command+Shift |  |
-| End | Ctrl+Shift | Down Arrow | Command+Shift |  |
-| Left Arrow | Ctrl | Left Arrow | Option |  |
-| Left Arrow | Ctrl+Shift | Left Arrow | Option+Shift |  |
-| Right Arrow | Ctrl | Right Arrow | Option |  |
-| Right Arrow | Ctrl+Shift | Right Arrow | Option+Shift |  |
+
+| Input Key   | Input Modifier(s) | Output Key  | Output Modifier(s) | Notes                                                          |
+|-------------|-------------------|-------------|--------------------|----------------------------------------------------------------|
+| Insert      | Ctrl              | C           | Command            | Use only 1 Ctrl+Insert shortcut. Works in Terminal Emulators.  |
+| Insert      | Ctrl              | C           | Command            | Use only 1 Ctrl+Insert shortcut.                               |
+| Insert      | Shift             | V           | Command            | Use only 1 Shift+Insert shortcut. Works in Terminal Emulators. |
+| Insert      | Shift             | V           | Command            | Use only 1 Shift+Insert shortcut.                              |
+| Home        |                   | Left Arrow  | Command            |                                                                |
+| Home        | Ctrl              | Up Arrow    | Command            |                                                                |
+| Home        | Shift             | Left Arrow  | Command+Shift      |                                                                |
+| Home        | Ctrl+Shift        | Up Arrow    | Command+Shift      |                                                                |
+| End         |                   | Right Arrow | Command            |                                                                |
+| End         | Ctrl              | Down Arrow  | Command            |                                                                |
+| End         | Shift             | Right Arrow | Command+Shift      |                                                                |
+| End         | Ctrl+Shift        | Down Arrow  | Command+Shift      |                                                                |
+| Left Arrow  | Ctrl              | Left Arrow  | Option             |                                                                |
+| Left Arrow  | Ctrl+Shift        | Left Arrow  | Option+Shift       |                                                                |
+| Right Arrow | Ctrl              | Right Arrow | Option             |                                                                |
+| Right Arrow | Ctrl+Shift        | Right Arrow | Option+Shift       |                                                                |
 
 ([TOC](#table-of-contents))
 
 ### Command Keys
+
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
-|-|-|-|-|-|
-| Backspace | Ctrl | Backspace | Option |  |
-| Delete | Ctrl | Delete | Option |  |
-| Enter | Ctrl | Enter | Command |  |
-| Enter | Ctrl+Shift | Enter | Command+Shift |  |
+|-----------|-------------------|------------|--------------------|-------|
+| Backspace | Ctrl              | Backspace  | Option             |       |
+| Delete    | Ctrl              | Delete     | Option             |       |
+| Enter     | Ctrl              | Enter      | Command            |       |
+| Enter     | Ctrl+Shift        | Enter      | Command+Shift      |       |
 
 ([TOC](#table-of-contents))
 
 ### Modifier Keys
-| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
-|-|-|-|-|-|
-| Win |  | Spotlight |  | Works in Excepted Applications. |
+
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes                           |
+|-----------|-------------------|------------|--------------------|---------------------------------|
+| Win       |                   | Spotlight  |                    | Works in Excepted Applications. |
 
 ([TOC](#table-of-contents))
 
 ### Alphanumeric Keys
-| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
-|-|-|-|-|-|
-| A | Ctrl | A | Command |  |
-| B | Ctrl | B | Command |  |
-| C | Left Ctrl | C | Command |  |
-| C | Ctrl+Shift | C | Command | Only applies to Terminal Emulators. |
-| F | Ctrl | F | Command |  |
-| H | Ctrl | H | Command | Only applies to web browsers. |
-| I | Ctrl | I | Command |  |
-| L | Alt+Ctrl | Q | Control+Command | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Works in Excepted Applications. |
-| L | Alt+Ctrl | Power | Control+Shift | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. Works in Excepted Applications. |
-| L | Ctrl | L | Command | Only Applies to Web Browsers. |
-| L | Win | Q | Control+Command | Use only 1 Win+L shortcut. Invokes Lock Screen. Works in Excepted Applications. |
-| L | Win | Power | Control+Shift | Use only 1 Win+L shortcut. Invokes Sleep. Note that the screen doesn't always fully lock right away. Works in Excepted Applications. |
-| N | Ctrl | N | Command |  |
-| O | Ctrl | O | Command |  |
-| P | Ctrl | P | Command |  |
-| R | Ctrl | R | Command |  |
-| S | Ctrl | S | Command |  |
-| T | Ctrl | T | Command |  |
-| U | Ctrl | U | Command |  |
-| V | Ctrl | V | Command |  |
-| V | Ctrl+Shift | V | Command | Only applies to Terminal Emulators. |
-| W | Ctrl | W | Command |  |
-| X | Ctrl | X | Command |  |
-| Y | Ctrl | Y | Command |  |
-| Z | Ctrl | Z | Command |  |
-| 1 | Command | (Shell Command) | | Launches or switches to the app pinned to the first position in the dock (always Finder). Works in IDEs and Terminal Emulators. |
-| 2 | Command | (Shell Command) | | Launches or switches to the app pinned to the second position in the dock. Works in Terminal IDEs and Emulators. |
-| 3 | Command | (Shell Command) | | Launches or switches to the app pinned to the third position in the dock. Works in Terminal IDEs and Emulators. |
-| 4 | Command | (Shell Command) | | Launches or switches to the app pinned to the fourth position in the dock. Works in Terminal IDEs and Emulators. |
-| 5 | Command | (Shell Command) | | Launches or switches to the app pinned to the fifth position in the dock. Works in Terminal IDEs and Emulators. |
-| 6 | Command | (Shell Command) | | Launches or switches to the app pinned to the sixth position in the dock. Works in Terminal IDEs and Emulators. |
-| 7 | Command | (Shell Command) | | Launches or switches to the app pinned to the seventh position in the dock. Works in Terminal IDEs and Emulators. |
-| 8 | Command | (Shell Command) | | Launches or switches to the app pinned to the eighth position in the dock. Works in Terminal IDEs and Emulators. |
-| 9 | Command | (Shell Command) | | Launches or switches to the app pinned to the ninth position in the dock. Works in Terminal IDEs and Emulators. |
+
+| Input Key | Input Modifier(s) | Output Key      | Output Modifier(s) | Notes                                                                                                                                           |
+|-----------|-------------------|-----------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| A         | Ctrl              | A               | Command            |                                                                                                                                                 |
+| B         | Ctrl              | B               | Command            |                                                                                                                                                 |
+| C         | Left Ctrl         | C               | Command            |                                                                                                                                                 |
+| C         | Ctrl+Shift        | C               | Command            | Only applies to Terminal Emulators.                                                                                                             |
+| F         | Ctrl              | F               | Command            |                                                                                                                                                 |
+| H         | Ctrl              | H               | Command            | Only applies to web browsers.                                                                                                                   |
+| I         | Ctrl              | I               | Command            |                                                                                                                                                 |
+| L         | Alt+Ctrl          | Q               | Control+Command    | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Works in Excepted Applications.                                                            |
+| L         | Alt+Ctrl          | Power           | Control+Shift      | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. Works in Excepted Applications. |
+| L         | Ctrl              | L               | Command            | Only Applies to Web Browsers.                                                                                                                   |
+| L         | Win               | Q               | Control+Command    | Use only 1 Win+L shortcut. Invokes Lock Screen. Works in Excepted Applications.                                                                 |
+| L         | Win               | Power           | Control+Shift      | Use only 1 Win+L shortcut. Invokes Sleep. Note that the screen doesn't always fully lock right away. Works in Excepted Applications.            |
+| N         | Ctrl              | N               | Command            |                                                                                                                                                 |
+| O         | Ctrl              | O               | Command            |                                                                                                                                                 |
+| P         | Ctrl              | P               | Command            |                                                                                                                                                 |
+| R         | Ctrl              | R               | Command            |                                                                                                                                                 |
+| S         | Ctrl              | S               | Command            |                                                                                                                                                 |
+| T         | Ctrl              | T               | Command            |                                                                                                                                                 |
+| U         | Ctrl              | U               | Command            |                                                                                                                                                 |
+| V         | Ctrl              | V               | Command            |                                                                                                                                                 |
+| V         | Ctrl+Shift        | V               | Command            | Only applies to Terminal Emulators.                                                                                                             |
+| W         | Ctrl              | W               | Command            |                                                                                                                                                 |
+| X         | Ctrl              | X               | Command            |                                                                                                                                                 |
+| Y         | Ctrl              | Y               | Command            |                                                                                                                                                 |
+| Z         | Ctrl              | Z               | Command            |                                                                                                                                                 |
+| 1         | Command           | (Shell Command) |                    | Launches or switches to the app pinned to the first position in the dock (always Finder). Works in IDEs and Terminal Emulators.                 |
+| 2         | Command           | (Shell Command) |                    | Launches or switches to the app pinned to the second position in the dock. Works in Terminal IDEs and Emulators.                                |
+| 3         | Command           | (Shell Command) |                    | Launches or switches to the app pinned to the third position in the dock. Works in Terminal IDEs and Emulators.                                 |
+| 4         | Command           | (Shell Command) |                    | Launches or switches to the app pinned to the fourth position in the dock. Works in Terminal IDEs and Emulators.                                |
+| 5         | Command           | (Shell Command) |                    | Launches or switches to the app pinned to the fifth position in the dock. Works in Terminal IDEs and Emulators.                                 |
+| 6         | Command           | (Shell Command) |                    | Launches or switches to the app pinned to the sixth position in the dock. Works in Terminal IDEs and Emulators.                                 |
+| 7         | Command           | (Shell Command) |                    | Launches or switches to the app pinned to the seventh position in the dock. Works in Terminal IDEs and Emulators.                               |
+| 8         | Command           | (Shell Command) |                    | Launches or switches to the app pinned to the eighth position in the dock. Works in Terminal IDEs and Emulators.                                |
+| 9         | Command           | (Shell Command) |                    | Launches or switches to the app pinned to the ninth position in the dock. Works in Terminal IDEs and Emulators.                                 |
 
 ([TOC](#table-of-contents))
 
 ### Punctuation Keys
-| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
-|-|-|-|-|-|
-| / | Ctrl | / | Command | Works in Terminal Emulators. |
-| Space | Ctrl | Space | Command |  |
-| Tab | Alt | Tab | Command | Works in IDEs and Terminal Emulators. |
+
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes                                 |
+|-----------|-------------------|------------|--------------------|---------------------------------------|
+| /         | Ctrl              | /          | Command            | Works in Terminal Emulators.          |
+| Space     | Ctrl              | Space      | Command            |                                       |
+| Tab       | Alt               | Tab        | Command            | Works in IDEs and Terminal Emulators. |
 
 ([TOC](#table-of-contents))
 
 ### Function Keys
-| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
-|-|-|-|-|-|
-| F1 |  | / | Command+Shift |  |
-| F3 |  | G | Command |  |
-| F4 | Alt | Q | Command | Works in Terminal Emulators. |
-| F4 | Ctrl | W | Command | Only applies to Google Chrome. |
-| F5 |  | R | Command | Only applies to Google Chrome. |
+
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes                          |
+|-----------|-------------------|------------|--------------------|--------------------------------|
+| F1        |                   | /          | Command+Shift      |                                |
+| F3        |                   | G          | Command            |                                |
+| F4        | Alt               | Q          | Command            | Works in Terminal Emulators.   |
+| F4        | Ctrl              | W          | Command            | Only applies to Google Chrome. |
+| F5        |                   | R          | Command            | Only applies to Google Chrome. |
 
 ([TOC](#table-of-contents))
 
