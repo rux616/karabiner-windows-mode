@@ -72,5 +72,7 @@
     '^com\\.brave\\.Browser$',
     // Safari
     '^com\\.apple\\.Safari$',
+    // Microsoft Edge
+    '^com\\.microsoft\\.edgemac$',
   ],
 }
