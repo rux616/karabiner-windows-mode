@@ -14,6 +14,7 @@ header="$(printf '<!--%s-->' "$(basename -s .sh -- "$0")")"
 
 # get the PR's API URL to interact with it
 github_pr_api_url="$(jq -r '.pull_request._links.comments.href' <"${GITHUB_EVENT_PATH}")"
+printf '  Endpoint URL: %s\n' "${github_pr_api_url}"
 
 
 printf 'Initializing git\n'
