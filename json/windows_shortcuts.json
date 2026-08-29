@@ -2991,7 +2991,8 @@
                         "^org\\.mozilla\\.firefox$",
                         "^org\\.mozilla\\.nightly$",
                         "^com\\.brave\\.Browser$",
-                        "^com\\.apple\\.Safari$"
+                        "^com\\.apple\\.Safari$",
+                        "^com\\.microsoft\\.edgemac$"
                      ],
                      "type": "frontmost_application_if"
                   }
@@ -3031,7 +3032,8 @@
                         "^org\\.mozilla\\.firefox$",
                         "^org\\.mozilla\\.nightly$",
                         "^com\\.brave\\.Browser$",
-                        "^com\\.apple\\.Safari$"
+                        "^com\\.apple\\.Safari$",
+                        "^com\\.microsoft\\.edgemac$"
                      ],
                      "type": "frontmost_application_if"
                   }
