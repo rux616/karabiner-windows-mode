@@ -76,5 +76,6 @@
     '^com\\.microsoft\\.edgemac$',
     // test values
     '^foo\\.bar\\.baz$',
+    '^foo\\.bar\\.baz2$',
   ],
 }
