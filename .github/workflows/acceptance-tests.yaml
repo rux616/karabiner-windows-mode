@@ -71,4 +71,4 @@ jobs:
       - name: Show JSON Diff
         run: ./base/.github/scripts/json_diff_pr_comment.sh ./head
         env:
-          AUTH_TOKEN: ${{ secrets.KWM_PR_COMMENTER_PAT }}
+          AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
