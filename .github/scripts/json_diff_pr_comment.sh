@@ -12,9 +12,18 @@ cd "${1:-.}"
 # special header string to use to identify comments
 header="$(printf '<!--%s-->' "$(basename -s .sh -- "$0")")"
 
+# github api version to use
+github_api_version="2026-03-10"
+printf '  GitHub API version: %s\n' "${github_api_version}"
+
 # get the PR's API URL to interact with it
 github_pr_api_url="$(jq -r '.pull_request._links.comments.href' <"${GITHUB_EVENT_PATH}")"
 printf '  Endpoint URL: %s\n' "${github_pr_api_url}"
+
+# convenience variables for curl headers
+header_auth="Authorization: token ${GITHUB_TOKEN}"
+header_accept="Accept: application/vnd.github+json"
+header_api="X-GitHub-Api-Version: ${github_api_version}"
 
 
 printf 'Initializing git\n'
@@ -59,25 +68,26 @@ printf 'Retrieving existing comments\n'
 #
 # note that the GET method only returns up to 100 comments, so PRs with a lot of
 # comments would need to get paginated
-existing_comments=( $(curl -s -X GET -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github.v3+json" "${github_pr_api_url}" | jq -r --arg header "${header}" '.[] | select(.body | startswith($header)).url') )
+mapfile -t existing_comments < <(curl -s -X GET -H "${header_auth}" -H "${header_accept}" -H "${header_api}" "${github_pr_api_url}/comments" | jq -r --arg header "${header}" '.[] | select(.body | startswith($header)).url')
 
 
 printf 'Posting new comment\n'
 # add a comment to the PR showing json changes that will result from this PR
 # this line does a few things:
-#  - use jq to 'jsonify' the body text
+#  - use jq to JSON-ify the body text
 #  - pass jq's stdout output via pipe
 #  - curl accepts jq's output via stdin as designated by "-d @-"
 #  - curl then posts the text to the PR using the secret token
 #  - finally, saves github's json response
-response="$(jq -cn --arg body "${body}" '{body: $body}' | curl -s -X POST -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github.v3+json" "${github_pr_api_url}" -d @-)"
+response="$(jq -cn --arg body "${body}" '{body: $body}' | curl -s -X POST -H "${header_auth}" -H "${header_accept}" -H "${header_api}" "${github_pr_api_url}/comments" -d @-)"
 
 # if $response.message is not null, then there was an issue posting the comment
 if [[ $(jq -r '.message' <<<"${response}") != "null" ]]; then
     # output the message and body for logging purposes then exit
-    printf 'Error POSTing comment!\n'
+    printf 'Error POSTing comment! (%s)\n' "$(jq -r '.message' <<<"${response}")"
     printf '  Error message: %s\n' "$(jq -r '.message' <<<"${response}")"
     printf '  Body of POST: %s\n' "$(jq -cn --arg body "${body}" '{body: $body}')"
+    printf '  Full response: %s\n' "${response}"
     exit 1
 else
     printf 'Comment POSTed: %s\n' "$(jq -r '.html_url' <<<"${response}")"
@@ -86,7 +96,7 @@ fi
 
 printf 'Deleting old comments\n'
 for comment_url in "${existing_comments[@]}"; do
-    message="$(curl -s -X DELETE -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github.v3+json" "${comment_url}" | jq -r '.message')"
+    message="$(curl -s -X DELETE -H "${header_auth}" -H "${header_accept}" -H "${header_api}" "${comment_url}" | jq -r '.message')"
 
     # check if there were any issues deleting the comment
     if [[ -n ${message} ]]; then
