@@ -69,8 +69,17 @@ printf 'Retrieving existing comments\n'
 # note that the GET method only returns up to 100 comments, so PRs with a lot of
 # comments would need to get paginated
 mapfile -t existing_comments < <(curl -s -X GET -H "${header_auth}" -H "${header_accept}" -H "${header_api}" "${github_pr_api_url}" | jq -r --arg header "${header}" '.[] | select(.body | startswith($header)).url')
-printf '  Found %d existing comments:\n' "${#existing_comments[@]}"
-printf '    %s\n' "${existing_comments[@]}"
+to_print="  Found ${#existing_comments[@]} existing comment"
+if [[ ${#existing_comments[@]} -ne 1 ]]; then
+    to_print+='s'
+fi
+if [[ ${#existing_comments[@]} -gt 0 ]]; then
+    to_print+=':'
+fi
+printf '%s\n' "${to_print}"
+if [[ ${#existing_comments[@]} -gt 0 ]]; then
+    printf '    %s\n' "${existing_comments[@]}"
+fi
 
 
 printf 'Posting new comment\n'
