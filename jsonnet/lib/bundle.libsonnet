@@ -74,5 +74,8 @@
     '^com\\.apple\\.Safari$',
     // Microsoft Edge
     '^com\\.microsoft\\.edgemac$',
+    // test values
+    '^foo\\.bar\\.baz$',
+    '^foo\\.bar\\.baz2$',
   ],
 }
