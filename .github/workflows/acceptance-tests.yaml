@@ -53,9 +53,10 @@ jobs:
     name: Show JSON Diff
     runs-on: ubuntu-24.04
     permissions:
-      contents: read
-      issues: write
+      contents: write
+      actions: write
       pull-requests: write
+      issues: write
     needs:
       - jsonnet_syntax
       - jsonnet_fmt
