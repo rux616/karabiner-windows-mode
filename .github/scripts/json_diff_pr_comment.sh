@@ -81,16 +81,16 @@ printf 'Posting new comment\n'
 #  - finally, saves github's json response
 response="$(jq -cn --arg body "${body}" '{body: $body}' | curl -s -X POST -H "${header_auth}" -H "${header_accept}" -H "${header_api}" "${github_pr_api_url}" -d @-)"
 
-# if $response.message is not null, then there was an issue posting the comment
+# if $response.message is not null, then there was an issue creating the comment
 if [[ $(jq -r '.message' <<<"${response}") != "null" ]]; then
     # output the message and body for logging purposes then exit
-    printf 'Error posting comment! (%s)\n' "$(jq -r '.status' <<<"${response}")"
+    printf 'Error creating comment! (%s)\n' "$(jq -r '.status' <<<"${response}")"
     printf '  Error message: %s\n' "$(jq -r '.message' <<<"${response}")"
-    printf '  Body of POST: %s\n' "$(jq -cn --arg body "${body}" '{body: $body}')"
+    printf '  Body of comment: %s\n' "$(jq -cn --arg body "${body}" '{body: $body}')"
     printf '  Full response: %s\n' "${response}"
     exit 1
 else
-    printf 'Comment POSTed: %s\n' "$(jq -r '.html_url' <<<"${response}")"
+    printf 'Comment created: %s\n' "$(jq -r '.html_url' <<<"${response}")"
 fi
 
 
