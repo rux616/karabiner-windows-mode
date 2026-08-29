@@ -21,7 +21,7 @@ github_pr_api_url="$(jq -r '.pull_request._links.comments.href' <"${GITHUB_EVENT
 printf '  Endpoint URL: %s\n' "${github_pr_api_url}"
 
 # convenience variables for curl headers
-header_auth="Authorization: token ${GITHUB_TOKEN}"
+header_auth="Authorization: token ${AUTH_TOKEN}"
 header_accept="Accept: application/vnd.github+json"
 header_api="X-GitHub-Api-Version: ${github_api_version}"
 
