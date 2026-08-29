@@ -84,7 +84,7 @@ response="$(jq -cn --arg body "${body}" '{body: $body}' | curl -s -X POST -H "${
 # if $response.message is not null, then there was an issue posting the comment
 if [[ $(jq -r '.message' <<<"${response}") != "null" ]]; then
     # output the message and body for logging purposes then exit
-    printf 'Error POSTing comment! (%s)\n' "$(jq -r '.message' <<<"${response}")"
+    printf 'Error posting comment! (%s)\n' "$(jq -r '.status' <<<"${response}")"
     printf '  Error message: %s\n' "$(jq -r '.message' <<<"${response}")"
     printf '  Body of POST: %s\n' "$(jq -cn --arg body "${body}" '{body: $body}')"
     printf '  Full response: %s\n' "${response}"
@@ -96,13 +96,14 @@ fi
 
 printf 'Deleting old comments\n'
 for comment_url in "${existing_comments[@]}"; do
-    message="$(curl -s -X DELETE -H "${header_auth}" -H "${header_accept}" -H "${header_api}" "${comment_url}" | jq -r '.message')"
+    response="$(curl -s -X DELETE -H "${header_auth}" -H "${header_accept}" -H "${header_api}" "${comment_url}")"
 
-    # check if there were any issues deleting the comment
-    if [[ -n ${message} ]]; then
-        printf 'Error deleting old comment!\n'
-        printf '  Error message: %s\n' "${message}"
+    # if $response.message is not null, then there was an issue deleting the comment
+    if [[ $(jq -r '.message' <<<"${response}") != "null" ]]; then
+        printf 'Error deleting old comment! (%s)\n' "$(jq -r '.status' <<<"${response}")"
+        printf '  Error message: %s\n' "$(jq -r '.message' <<<"${response}")"
         printf '  Comment URL: %s\n' "${comment_url}"
+        printf '  Full response: %s\n' "${response}"
         exit 1
     else
         printf 'Deleted old comment: %s\n' "${comment_url}"
