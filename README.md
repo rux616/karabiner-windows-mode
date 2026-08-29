@@ -71,6 +71,7 @@ List of Web Browsers:
 - Apple Safari
 - Brave Browser
 - Google Chrome
+- Microsoft Edge
 - Mozilla Firefox
 - Mozilla Firefox Nightly
 
@@ -183,28 +184,13 @@ List of Web Browsers:
 
 
 ## Credits
+
+Initial credits:
 - [@TechnicallyDifficult](https://github.com/TechnicallyDifficult) for coming up with the initial json file
 - [@alvaro1728](https://github.com/alvaro1728) for creating the current json file and for [asking the question](https://github.com/tekezo/Karabiner-Elements/issues/249) that got this whole thing started
 - [@tezeko](https://github.com/tekezo) for Karabiner-Elements
-- [@lsissoko](https://github.com/lsissoko) for Ctrl+R and Ctrl+W additions
-- [@aperlstein](https://github.com/aperlstein) for adding Ctrl+Enter, Ctrl+Shift+Enter, Ctrl+Space, and for adding Citrix XenAppViewer to list of exceptions
-- [@Ivanca](https://github.com/Ivanca) for adding IDEs to list of exceptions
-- [@from-nibly](https://github.com/from-nibly) for adding VMware Fusion to list of exceptions
-- [@andormarkus](https://github.com/andormarkus) for adding JetBrains PyCharm to list of exceptions
-- [@amateescu](https://github.com/amateescu) for adding JetBrains PhpStorm to list of exceptions
-- [@vidurb](https://github.com/vidurb) for adding GNU Emacs to list of exceptions, and the Cmd+<Number> shortcuts
-- [@jkluch](https://github.com/jkluch) for adding Microsoft RDC to list of exceptions
-- [@csmager](https://github.com/csmager) for adding Parallels and JetBrains Rider to list of exceptions
-- [@kingamajick](https://github.com/kingamajick) for adding WezTerm and Chrome Remote Desktop (enabling support for file_paths to identify applications) to the list of exceptions
-- [@raxigan](https://github.com/raxigan) for simplifying JetBrains IDE listing and adding the Win [Spotlight] shortcut
-- [@necojackarc](https://github.com/necojackarc) for fixing Win+L in newer versions of macOS
-- [@edance](https://github.com/edance) for adding an additional Emacs bundle, adding "L (Ctrl) [Web Browsers Only]", and expanding the list of web browsers
-- [@fab1o](https://github.com/fab1o) for the JSON for Alt+Tab (#14)
-- [@simonLeary42](https://github.com/simonLeary42) for adding VSCodium bundle, adding "H (Ctrl) [Web Browsers Only]", and adding "F5 [Only Chrome]", renaming some rules, fixing priority of home/end rules, and refactoring
-- [@elijaholmos](https://github.com/elijaholmos) for adding in the new Alacritty bundle ID
-- [@jelmansouri](https://github.com/jelmansouri) for adding in Ghostty's bundle ID
-- [@comigor](https://github.com/comigor) for adding in Zed's bundle ID
-- [@austenstone](https://github.com/austenstone) for broadening VSCode exception to include Insiders and other variants
+
+For all other credits, see the [Contributors](https://github.com/rux616/karabiner-windows-mode/graphs/contributors) listing.
 
 ([TOC](#table-of-contents))
 
