@@ -69,6 +69,8 @@ printf 'Retrieving existing comments\n'
 # note that the GET method only returns up to 100 comments, so PRs with a lot of
 # comments would need to get paginated
 mapfile -t existing_comments < <(curl -s -X GET -H "${header_auth}" -H "${header_accept}" -H "${header_api}" "${github_pr_api_url}" | jq -r --arg header "${header}" '.[] | select(.body | startswith($header)).url')
+printf '  Found %d existing comments:\n' "${#existing_comments[@]}"
+printf '    %s\n' "${existing_comments[@]}"
 
 
 printf 'Posting new comment\n'
@@ -98,8 +100,8 @@ printf 'Deleting old comments\n'
 for comment_url in "${existing_comments[@]}"; do
     response="$(curl -s -X DELETE -H "${header_auth}" -H "${header_accept}" -H "${header_api}" "${comment_url}")"
 
-    # if $response.message is not null, then there was an issue deleting the comment
-    if [[ $(jq -r '.message' <<<"${response}") != "null" ]]; then
+    # if $response is not empty, then there was an issue deleting the comment
+    if [[ -n "${response}" ]]; then
         printf 'Error deleting old comment!\n'
         printf '  Error message (%s): %s\n' "$(jq -r '.status' <<<"${response}")" "$(jq -r '.message' <<<"${response}")"
         printf '  Comment URL: %s\n' "${comment_url}"
