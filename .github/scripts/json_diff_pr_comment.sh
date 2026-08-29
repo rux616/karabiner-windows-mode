@@ -16,7 +16,7 @@ header="$(printf '<!--%s-->' "$(basename -s .sh -- "$0")")"
 github_api_version="2026-03-10"
 printf '  GitHub API version: %s\n' "${github_api_version}"
 
-# get the PR's API URL to interact with it
+# get the API URL for the PR's comments to interact with them
 github_pr_api_url="$(jq -r '.pull_request._links.comments.href' <"${GITHUB_EVENT_PATH}")"
 printf '  Endpoint URL: %s\n' "${github_pr_api_url}"
 
@@ -68,7 +68,7 @@ printf 'Retrieving existing comments\n'
 #
 # note that the GET method only returns up to 100 comments, so PRs with a lot of
 # comments would need to get paginated
-mapfile -t existing_comments < <(curl -s -X GET -H "${header_auth}" -H "${header_accept}" -H "${header_api}" "${github_pr_api_url}/comments" | jq -r --arg header "${header}" '.[] | select(.body | startswith($header)).url')
+mapfile -t existing_comments < <(curl -s -X GET -H "${header_auth}" -H "${header_accept}" -H "${header_api}" "${github_pr_api_url}" | jq -r --arg header "${header}" '.[] | select(.body | startswith($header)).url')
 
 
 printf 'Posting new comment\n'
@@ -79,7 +79,7 @@ printf 'Posting new comment\n'
 #  - curl accepts jq's output via stdin as designated by "-d @-"
 #  - curl then posts the text to the PR using the secret token
 #  - finally, saves github's json response
-response="$(jq -cn --arg body "${body}" '{body: $body}' | curl -s -X POST -H "${header_auth}" -H "${header_accept}" -H "${header_api}" "${github_pr_api_url}/comments" -d @-)"
+response="$(jq -cn --arg body "${body}" '{body: $body}' | curl -s -X POST -H "${header_auth}" -H "${header_accept}" -H "${header_api}" "${github_pr_api_url}" -d @-)"
 
 # if $response.message is not null, then there was an issue posting the comment
 if [[ $(jq -r '.message' <<<"${response}") != "null" ]]; then
