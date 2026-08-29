@@ -84,8 +84,8 @@ response="$(jq -cn --arg body "${body}" '{body: $body}' | curl -s -X POST -H "${
 # if $response.message is not null, then there was an issue creating the comment
 if [[ $(jq -r '.message' <<<"${response}") != "null" ]]; then
     # output the message and body for logging purposes then exit
-    printf 'Error creating comment! (%s)\n' "$(jq -r '.status' <<<"${response}")"
-    printf '  Error message: %s\n' "$(jq -r '.message' <<<"${response}")"
+    printf 'Error creating comment!\n'
+    printf '  Error message (%s): %s\n' "$(jq -r '.status' <<<"${response}")" "$(jq -r '.message' <<<"${response}")"
     printf '  Body of comment: %s\n' "$(jq -cn --arg body "${body}" '{body: $body}')"
     printf '  Full response: %s\n' "${response}"
     exit 1
@@ -100,8 +100,8 @@ for comment_url in "${existing_comments[@]}"; do
 
     # if $response.message is not null, then there was an issue deleting the comment
     if [[ $(jq -r '.message' <<<"${response}") != "null" ]]; then
-        printf 'Error deleting old comment! (%s)\n' "$(jq -r '.status' <<<"${response}")"
-        printf '  Error message: %s\n' "$(jq -r '.message' <<<"${response}")"
+        printf 'Error deleting old comment!\n'
+        printf '  Error message (%s): %s\n' "$(jq -r '.status' <<<"${response}")" "$(jq -r '.message' <<<"${response}")"
         printf '  Comment URL: %s\n' "${comment_url}"
         printf '  Full response: %s\n' "${response}"
         exit 1
