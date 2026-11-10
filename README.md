@@ -93,21 +93,21 @@ List of Web Browsers:
 | End         | Ctrl              | Down Arrow  | Command            |                                                                |
 | End         | Shift             | Right Arrow | Command+Shift      |                                                                |
 | End         | Ctrl+Shift        | Down Arrow  | Command+Shift      |                                                                |
-| Left Arrow  | Ctrl              | Left Arrow  | Option             |                                                                |
-| Left Arrow  | Ctrl+Shift        | Left Arrow  | Option+Shift       |                                                                |
-| Right Arrow | Ctrl              | Right Arrow | Option             |                                                                |
-| Right Arrow | Ctrl+Shift        | Right Arrow | Option+Shift       |                                                                |
+| Left Arrow  | Ctrl              | Left Arrow  | Option             | Not active when Command or Option is also held.                |
+| Left Arrow  | Ctrl+Shift        | Left Arrow  | Option+Shift       | Not active when Command or Option is also held.                |
+| Right Arrow | Ctrl              | Right Arrow | Option             | Not active when Command or Option is also held.                |
+| Right Arrow | Ctrl+Shift        | Right Arrow | Option+Shift       | Not active when Command or Option is also held.                |
 
 ([TOC](#table-of-contents))
 
 ### Command Keys
 
-| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
-|-----------|-------------------|------------|--------------------|-------|
-| Backspace | Ctrl              | Backspace  | Option             |       |
-| Delete    | Ctrl              | Delete     | Option             |       |
-| Enter     | Ctrl              | Enter      | Command            |       |
-| Enter     | Ctrl+Shift        | Enter      | Command+Shift      |       |
+| Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes                                           |
+|-----------|-------------------|------------|--------------------|-------------------------------------------------|
+| Backspace | Ctrl              | Backspace  | Option             | Not active when Command or Option is also held. |
+| Delete    | Ctrl              | Delete     | Option             | Not active when Command or Option is also held. |
+| Enter     | Ctrl              | Enter      | Command            |                                                 |
+| Enter     | Ctrl+Shift        | Enter      | Command+Shift      |                                                 |
 
 ([TOC](#table-of-contents))
 
