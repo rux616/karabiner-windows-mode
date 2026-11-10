@@ -43,11 +43,15 @@
   //
   // key_is_modifier (boolean, optional)
   //   removes entire 'modifiers' object; only use when <key> is a modifier itself
-  input(key, modifiers=null, key_is_modifier=false):: {
+  //
+  // optional (array, optional)
+  //   other modifiers that can be held when <key> triggers a rule; Karabiner
+  //   keeps these modifiers in the output
+  input(key, modifiers=null, key_is_modifier=false, optional=['any']):: {
     key_code: key,
     [if key_is_modifier then null else 'modifiers']: {
       [if modifiers != null then 'mandatory']: modifiers,
-      optional: ['any'],
+      optional: optional,
     },
   },
 
